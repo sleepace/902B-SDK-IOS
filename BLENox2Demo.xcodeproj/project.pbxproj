@@ -7,6 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F023B3E22F03662001B6D23 /* NightLightViewContronller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B3C22F03662001B6D23 /* NightLightViewContronller.m */; };
+		8F023B3F22F03662001B6D23 /* NightLightViewContronller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B3D22F03662001B6D23 /* NightLightViewContronller.xib */; };
+		8F023B4322F04A21001B6D23 /* SetLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B4122F04A21001B6D23 /* SetLightViewController.m */; };
+		8F023B4422F04A21001B6D23 /* SetLightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B4222F04A21001B6D23 /* SetLightViewController.xib */; };
+		8F023B4822F04A36001B6D23 /* SetTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B4622F04A36001B6D23 /* SetTimeViewController.m */; };
+		8F023B4922F04A36001B6D23 /* SetTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B4722F04A36001B6D23 /* SetTimeViewController.xib */; };
+		8F023B4D22F16734001B6D23 /* GestureControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B4B22F16734001B6D23 /* GestureControlViewController.m */; };
+		8F023B4E22F16734001B6D23 /* GestureControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B4C22F16734001B6D23 /* GestureControlViewController.xib */; };
+		8F023B5822F16EA1001B6D23 /* SLPCellHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B4F22F16EA0001B6D23 /* SLPCellHeaderView.m */; };
+		8F023B5922F16EA1001B6D23 /* SLPTitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B5222F16EA0001B6D23 /* SLPTitleTableViewCell.m */; };
+		8F023B5A22F16EA1001B6D23 /* SLPCellHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B5422F16EA1001B6D23 /* SLPCellHeaderView.xib */; };
+		8F023B5B22F16EA1001B6D23 /* SLPTitleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B5522F16EA1001B6D23 /* SLPTitleImageCell.m */; };
+		8F023B5C22F16EA1001B6D23 /* SLPTitleImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B5622F16EA1001B6D23 /* SLPTitleImageCell.xib */; };
+		8F023B5D22F16EA1001B6D23 /* SLPTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B5722F16EA1001B6D23 /* SLPTitleTableViewCell.xib */; };
+		8F023B6222F17403001B6D23 /* device_icon_choice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B5E22F17402001B6D23 /* device_icon_choice@3x.png */; };
+		8F023B6322F17403001B6D23 /* device_icon_choice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B5F22F17403001B6D23 /* device_icon_choice@2x.png */; };
+		8F023B6422F17403001B6D23 /* device_pic_nox2_usetutorial_page2@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B6022F17403001B6D23 /* device_pic_nox2_usetutorial_page2@2x.jpg */; };
+		8F023B6522F17403001B6D23 /* device_pic_nox2_handstop@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B6122F17403001B6D23 /* device_pic_nox2_handstop@2x.jpg */; };
+		8F023B7422F18C29001B6D23 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F023B7222F18C29001B6D23 /* BluetoothManager.framework */; };
+		8F023B7522F18C29001B6D23 /* BleNox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F023B7322F18C29001B6D23 /* BleNox.framework */; };
+		8F023B7F22F27FFB001B6D23 /* SN902B_20180509.1.24_release.MVA in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B7E22F27FFB001B6D23 /* SN902B_20180509.1.24_release.MVA */; };
+		8F10017822EEE85A00376141 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000BF22EEE85900376141 /* DataManager.m */; };
+		8F10017922EEE85A00376141 /* ControlSleepAidViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000C122EEE85900376141 /* ControlSleepAidViewController.xib */; };
+		8F10017A22EEE85A00376141 /* ControlLightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000C222EEE85900376141 /* ControlLightViewController.xib */; };
+		8F10017B22EEE85A00376141 /* ControlSleepAidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000C422EEE85900376141 /* ControlSleepAidViewController.m */; };
+		8F10017C22EEE85A00376141 /* ControlAromaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000C522EEE85900376141 /* ControlAromaViewController.xib */; };
+		8F10017D22EEE85A00376141 /* CustomStyleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000C922EEE85900376141 /* CustomStyleButton.m */; };
+		8F10017E22EEE85A00376141 /* CustomColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000CC22EEE85900376141 /* CustomColorButton.m */; };
+		8F10017F22EEE85A00376141 /* ControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000CD22EEE85900376141 /* ControlViewController.xib */; };
+		8F10018022EEE85A00376141 /* ControlLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000CF22EEE85900376141 /* ControlLightViewController.m */; };
+		8F10018122EEE85A00376141 /* ControlAromaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000D022EEE85900376141 /* ControlAromaViewController.m */; };
+		8F10018222EEE85A00376141 /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000D122EEE85900376141 /* ControlViewController.m */; };
+		8F10018322EEE85A00376141 /* Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000D422EEE85900376141 /* Coordinate.m */; };
+		8F10018422EEE85A00376141 /* TabBarItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000D722EEE85900376141 /* TabBarItemCell.xib */; };
+		8F10018522EEE85A00376141 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000D822EEE85900376141 /* MainViewController.xib */; };
+		8F10018622EEE85A00376141 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000D922EEE85900376141 /* MainViewController.m */; };
+		8F10018722EEE85A00376141 /* TabBarItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000DA22EEE85900376141 /* TabBarItemCell.m */; };
+		8F10018822EEE85A00376141 /* Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000DE22EEE85900376141 /* Theme.m */; };
+		8F10018A22EEE85A00376141 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000E322EEE85900376141 /* InfoPlist.strings */; };
+		8F10018B22EEE85A00376141 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000E722EEE85900376141 /* Localizable.strings */; };
+		8F10018C22EEE85A00376141 /* common_list_icon_leftarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000EB22EEE85900376141 /* common_list_icon_leftarrow@3x.png */; };
+		8F10018D22EEE85A00376141 /* common_list_icon_leftarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000EC22EEE85900376141 /* common_list_icon_leftarrow@2x.png */; };
+		8F10018E22EEE85A00376141 /* list_icon_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000ED22EEE85900376141 /* list_icon_select@2x.png */; };
+		8F10018F22EEE85A00376141 /* list_icon_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000EE22EEE85900376141 /* list_icon_select@3x.png */; };
+		8F10019022EEE85A00376141 /* device_btn_refresh_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000EF22EEE85900376141 /* device_btn_refresh_nor@2x.png */; };
+		8F10019122EEE85A00376141 /* common_nav_btn_back_white_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000F022EEE85900376141 /* common_nav_btn_back_white_nor@3x.png */; };
+		8F10019222EEE85A00376141 /* common_nav_btn_back_white_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000F122EEE85900376141 /* common_nav_btn_back_white_nor@2x.png */; };
+		8F10019322EEE85A00376141 /* device_btn_refresh_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000F222EEE85900376141 /* device_btn_refresh_nor@3x.png */; };
+		8F10019422EEE85A00376141 /* common_nav_btn_back_nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000F322EEE85900376141 /* common_nav_btn_back_nor@3x.png */; };
+		8F10019522EEE85A00376141 /* common_nav_btn_back_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000F422EEE85900376141 /* common_nav_btn_back_nor@2x.png */; };
+		8F10019622EEE85A00376141 /* Utils+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000F822EEE85A00376141 /* Utils+UI.m */; };
+		8F10019722EEE85A00376141 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000F922EEE85A00376141 /* Utils.m */; };
+		8F10019822EEE85A00376141 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000FC22EEE85A00376141 /* SettingsViewController.m */; };
+		8F10019922EEE85A00376141 /* CenterSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1000FE22EEE85A00376141 /* CenterSettingViewController.m */; };
+		8F10019A22EEE85A00376141 /* CenterSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1000FF22EEE85A00376141 /* CenterSettingViewController.xib */; };
+		8F10019B22EEE85A00376141 /* ResetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10010122EEE85A00376141 /* ResetCell.xib */; };
+		8F1001A222EEE85A00376141 /* AlarmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10011122EEE85A00376141 /* AlarmViewController.xib */; };
+		8F1001A322EEE85A00376141 /* MusicListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10011322EEE85A00376141 /* MusicListViewController.xib */; };
+		8F1001A422EEE85A00376141 /* WeekdaySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10011422EEE85A00376141 /* WeekdaySelectViewController.xib */; };
+		8F1001A522EEE85A00376141 /* AlarmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10011522EEE85A00376141 /* AlarmListViewController.m */; };
+		8F1001A622EEE85A00376141 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10011622EEE85A00376141 /* MusicListViewController.m */; };
+		8F1001A722EEE85A00376141 /* AlarmListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10011722EEE85A00376141 /* AlarmListViewController.xib */; };
+		8F1001A822EEE85A00376141 /* WeekdayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10011A22EEE85A00376141 /* WeekdayInfo.m */; };
+		8F1001A922EEE85A00376141 /* MusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10011C22EEE85A00376141 /* MusicInfo.m */; };
+		8F1001AA22EEE85A00376141 /* SLPWeekDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10011E22EEE85A00376141 /* SLPWeekDay.m */; };
+		8F1001AB22EEE85A00376141 /* AlarmDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10012022EEE85A00376141 /* AlarmDataModel.m */; };
+		8F1001AC22EEE85A00376141 /* SLPViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10012322EEE85A00376141 /* SLPViewInfo.m */; };
+		8F1001AD22EEE85A00376141 /* SLPLabelFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10012522EEE85A00376141 /* SLPLabelFooter.xib */; };
+		8F1001AE22EEE85A00376141 /* TitleValueSwitchCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10012622EEE85A00376141 /* TitleValueSwitchCellTableViewCell.xib */; };
+		8F1001AF22EEE85A00376141 /* TitleSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10012822EEE85A00376141 /* TitleSwitchCell.xib */; };
+		8F1001B022EEE85A00376141 /* TitleSubTitleArrowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10012922EEE85A00376141 /* TitleSubTitleArrowCell.xib */; };
+		8F1001B122EEE85A00376141 /* TitleValueSwitchCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10012B22EEE85A00376141 /* TitleValueSwitchCellTableViewCell.m */; };
+		8F1001B222EEE85A00376141 /* SLPAlarmFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10012C22EEE85A00376141 /* SLPAlarmFooter.m */; };
+		8F1001B322EEE85A00376141 /* TitleSubTitleArrowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10012D22EEE85A00376141 /* TitleSubTitleArrowCell.m */; };
+		8F1001B422EEE85A00376141 /* TitleSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10012E22EEE85A00376141 /* TitleSwitchCell.m */; };
+		8F1001B522EEE85A00376141 /* SLPAlarmFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10012F22EEE85A00376141 /* SLPAlarmFooter.xib */; };
+		8F1001B622EEE85A00376141 /* SLPLabelFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10013022EEE85A00376141 /* SLPLabelFooter.m */; };
+		8F1001B722EEE85A00376141 /* SelectItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10013222EEE85A00376141 /* SelectItemCell.m */; };
+		8F1001B822EEE85A00376141 /* SelectItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10013322EEE85A00376141 /* SelectItemCell.xib */; };
+		8F1001B922EEE85A00376141 /* WeekdaySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10013822EEE85A00376141 /* WeekdaySelectViewController.m */; };
+		8F1001BA22EEE85A00376141 /* AlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10013922EEE85A00376141 /* AlarmViewController.m */; };
+		8F1001BB22EEE85A00376141 /* ResetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10013B22EEE85A00376141 /* ResetCell.m */; };
+		8F1001BC22EEE85A00376141 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10013C22EEE85A00376141 /* SettingsViewController.xib */; };
+		8F1001BD22EEE85B00376141 /* DeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10013E22EEE85A00376141 /* DeviceViewController.xib */; };
+		8F1001BE22EEE85B00376141 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10013F22EEE85A00376141 /* SearchViewController.m */; };
+		8F1001BF22EEE85B00376141 /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10014022EEE85A00376141 /* DeviceViewController.m */; };
+		8F1001C022EEE85B00376141 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10014122EEE85A00376141 /* SearchViewController.xib */; };
+		8F1001C122EEE85B00376141 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10014622EEE85A00376141 /* BaseTableViewCell.m */; };
+		8F1001C222EEE85B00376141 /* SLPTableSectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10014722EEE85A00376141 /* SLPTableSectionData.m */; };
+		8F1001C322EEE85B00376141 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10014822EEE85A00376141 /* BaseViewController.m */; };
+		8F1001C422EEE85B00376141 /* SLPLoadingBlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10014A22EEE85A00376141 /* SLPLoadingBlockView.xib */; };
+		8F1001C522EEE85B00376141 /* DatePickerPopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10014C22EEE85A00376141 /* DatePickerPopUpView.xib */; };
+		8F1001C622EEE85B00376141 /* PopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10014D22EEE85A00376141 /* PopUpView.xib */; };
+		8F1001C722EEE85B00376141 /* PopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10014E22EEE85A00376141 /* PopUpView.m */; };
+		8F1001C822EEE85B00376141 /* DatePickerPopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10014F22EEE85A00376141 /* DatePickerPopUpView.m */; };
+		8F1001C922EEE85B00376141 /* SLPLoadingBlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10015022EEE85A00376141 /* SLPLoadingBlockView.m */; };
+		8F1001CA22EEE85B00376141 /* SLPPopBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10015122EEE85A00376141 /* SLPPopBaseView.m */; };
+		8F1001CB22EEE85B00376141 /* SLPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10015A22EEE85A00376141 /* SLPUtils.m */; };
+		8F1001CC22EEE85B00376141 /* SLPUtils+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10015B22EEE85A00376141 /* SLPUtils+Date.m */; };
+		8F1001CD22EEE85B00376141 /* SLPUtils+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10015C22EEE85A00376141 /* SLPUtils+Data.m */; };
+		8F1001CE22EEE85B00376141 /* VerticalDashView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10015F22EEE85A00376141 /* VerticalDashView.m */; };
+		8F1001CF22EEE85B00376141 /* SLPTime12.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10016322EEE85A00376141 /* SLPTime12.m */; };
+		8F1001D022EEE85B00376141 /* SLPTime24.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10016522EEE85A00376141 /* SLPTime24.m */; };
+		8F1001D122EEE85B00376141 /* HorizontalDashLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10016922EEE85A00376141 /* HorizontalDashLine.m */; };
+		8F1001D222EEE85B00376141 /* TimePickerSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10016B22EEE85A00376141 /* TimePickerSelectView.m */; };
+		8F1001D322EEE85B00376141 /* SLPMinuteSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10016C22EEE85A00376141 /* SLPMinuteSelectView.m */; };
+		8F1001D422EEE85B00376141 /* HourMinutePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10016D22EEE85A00376141 /* HourMinutePicker.m */; };
+		8F1001D522EEE85B00376141 /* HourMinutePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10016E22EEE85A00376141 /* HourMinutePicker.xib */; };
+		8F1001D622EEE85B00376141 /* SLPMinutePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10016F22EEE85A00376141 /* SLPMinutePicker.m */; };
+		8F1001D722EEE85B00376141 /* SLPTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10017022EEE85A00376141 /* SLPTimePicker.m */; };
+		8F1001D822EEE85B00376141 /* SLPMinuteSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10017422EEE85A00376141 /* SLPMinuteSelectView.xib */; };
+		8F1001D922EEE85B00376141 /* TimePickerSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F10017522EEE85A00376141 /* TimePickerSelectView.xib */; };
+		8F1001E022EEF1DC00376141 /* SLPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1001DD22EEF1DC00376141 /* SLPCommon.framework */; };
 		8F10FF6922EEE73C00376141 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10FF6822EEE73C00376141 /* AppDelegate.m */; };
 		8F10FF6C22EEE73C00376141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10FF6B22EEE73C00376141 /* ViewController.m */; };
 		8F10FF6F22EEE73C00376141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F10FF6D22EEE73C00376141 /* Main.storyboard */; };
@@ -15,6 +128,7 @@
 		8F10FF7722EEE73D00376141 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10FF7622EEE73D00376141 /* main.m */; };
 		8F10FF8122EEE73D00376141 /* BLENox2DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10FF8022EEE73D00376141 /* BLENox2DemoTests.m */; };
 		8F10FF8C22EEE73E00376141 /* BLENox2DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10FF8B22EEE73E00376141 /* BLENox2DemoUITests.m */; };
+		8F52DB3F22EEF442001F1CE5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F52DB3E22EEF442001F1CE5 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +149,185 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F023B3B22F03662001B6D23 /* NightLightViewContronller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NightLightViewContronller.h; sourceTree = "<group>"; };
+		8F023B3C22F03662001B6D23 /* NightLightViewContronller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightLightViewContronller.m; sourceTree = "<group>"; };
+		8F023B3D22F03662001B6D23 /* NightLightViewContronller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NightLightViewContronller.xib; sourceTree = "<group>"; };
+		8F023B4022F04A21001B6D23 /* SetLightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetLightViewController.h; sourceTree = "<group>"; };
+		8F023B4122F04A21001B6D23 /* SetLightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetLightViewController.m; sourceTree = "<group>"; };
+		8F023B4222F04A21001B6D23 /* SetLightViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetLightViewController.xib; sourceTree = "<group>"; };
+		8F023B4522F04A36001B6D23 /* SetTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetTimeViewController.h; sourceTree = "<group>"; };
+		8F023B4622F04A36001B6D23 /* SetTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetTimeViewController.m; sourceTree = "<group>"; };
+		8F023B4722F04A36001B6D23 /* SetTimeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SetTimeViewController.xib; sourceTree = "<group>"; };
+		8F023B4A22F16734001B6D23 /* GestureControlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureControlViewController.h; sourceTree = "<group>"; };
+		8F023B4B22F16734001B6D23 /* GestureControlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureControlViewController.m; sourceTree = "<group>"; };
+		8F023B4C22F16734001B6D23 /* GestureControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GestureControlViewController.xib; sourceTree = "<group>"; };
+		8F023B4F22F16EA0001B6D23 /* SLPCellHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPCellHeaderView.m; sourceTree = "<group>"; };
+		8F023B5022F16EA0001B6D23 /* SLPCellHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPCellHeaderView.h; sourceTree = "<group>"; };
+		8F023B5122F16EA0001B6D23 /* SLPTitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPTitleTableViewCell.h; sourceTree = "<group>"; };
+		8F023B5222F16EA0001B6D23 /* SLPTitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPTitleTableViewCell.m; sourceTree = "<group>"; };
+		8F023B5322F16EA0001B6D23 /* SLPTitleImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPTitleImageCell.h; sourceTree = "<group>"; };
+		8F023B5422F16EA1001B6D23 /* SLPCellHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPCellHeaderView.xib; sourceTree = "<group>"; };
+		8F023B5522F16EA1001B6D23 /* SLPTitleImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPTitleImageCell.m; sourceTree = "<group>"; };
+		8F023B5622F16EA1001B6D23 /* SLPTitleImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPTitleImageCell.xib; sourceTree = "<group>"; };
+		8F023B5722F16EA1001B6D23 /* SLPTitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPTitleTableViewCell.xib; sourceTree = "<group>"; };
+		8F023B5E22F17402001B6D23 /* device_icon_choice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_icon_choice@3x.png"; sourceTree = "<group>"; };
+		8F023B5F22F17403001B6D23 /* device_icon_choice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_icon_choice@2x.png"; sourceTree = "<group>"; };
+		8F023B6022F17403001B6D23 /* device_pic_nox2_usetutorial_page2@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "device_pic_nox2_usetutorial_page2@2x.jpg"; sourceTree = "<group>"; };
+		8F023B6122F17403001B6D23 /* device_pic_nox2_handstop@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "device_pic_nox2_handstop@2x.jpg"; sourceTree = "<group>"; };
+		8F023B7222F18C29001B6D23 /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BluetoothManager.framework; sourceTree = "<group>"; };
+		8F023B7322F18C29001B6D23 /* BleNox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BleNox.framework; sourceTree = "<group>"; };
+		8F023B7E22F27FFB001B6D23 /* SN902B_20180509.1.24_release.MVA */ = {isa = PBXFileReference; lastKnownFileType = file; path = SN902B_20180509.1.24_release.MVA; sourceTree = "<group>"; };
+		8F1000BE22EEE85900376141 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		8F1000BF22EEE85900376141 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		8F1000C122EEE85900376141 /* ControlSleepAidViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlSleepAidViewController.xib; sourceTree = "<group>"; };
+		8F1000C222EEE85900376141 /* ControlLightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlLightViewController.xib; sourceTree = "<group>"; };
+		8F1000C322EEE85900376141 /* ControlLightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlLightViewController.h; sourceTree = "<group>"; };
+		8F1000C422EEE85900376141 /* ControlSleepAidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlSleepAidViewController.m; sourceTree = "<group>"; };
+		8F1000C522EEE85900376141 /* ControlAromaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlAromaViewController.xib; sourceTree = "<group>"; };
+		8F1000C622EEE85900376141 /* ControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
+		8F1000C722EEE85900376141 /* ControlAromaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlAromaViewController.h; sourceTree = "<group>"; };
+		8F1000C922EEE85900376141 /* CustomStyleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStyleButton.m; sourceTree = "<group>"; };
+		8F1000CA22EEE85900376141 /* CustomColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColorButton.h; sourceTree = "<group>"; };
+		8F1000CB22EEE85900376141 /* CustomStyleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStyleButton.h; sourceTree = "<group>"; };
+		8F1000CC22EEE85900376141 /* CustomColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColorButton.m; sourceTree = "<group>"; };
+		8F1000CD22EEE85900376141 /* ControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ControlViewController.xib; sourceTree = "<group>"; };
+		8F1000CE22EEE85900376141 /* ControlSleepAidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlSleepAidViewController.h; sourceTree = "<group>"; };
+		8F1000CF22EEE85900376141 /* ControlLightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlLightViewController.m; sourceTree = "<group>"; };
+		8F1000D022EEE85900376141 /* ControlAromaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlAromaViewController.m; sourceTree = "<group>"; };
+		8F1000D122EEE85900376141 /* ControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlViewController.m; sourceTree = "<group>"; };
+		8F1000D322EEE85900376141 /* Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinate.h; sourceTree = "<group>"; };
+		8F1000D422EEE85900376141 /* Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinate.m; sourceTree = "<group>"; };
+		8F1000D622EEE85900376141 /* TabBarItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItemCell.h; sourceTree = "<group>"; };
+		8F1000D722EEE85900376141 /* TabBarItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarItemCell.xib; sourceTree = "<group>"; };
+		8F1000D822EEE85900376141 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		8F1000D922EEE85900376141 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8F1000DA22EEE85900376141 /* TabBarItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItemCell.m; sourceTree = "<group>"; };
+		8F1000DB22EEE85900376141 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8F1000DD22EEE85900376141 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		8F1000DE22EEE85900376141 /* Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Theme.m; sourceTree = "<group>"; };
+		8F1000E422EEE85900376141 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		8F1000E522EEE85900376141 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		8F1000E822EEE85900376141 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8F1000E922EEE85900376141 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8F1000EB22EEE85900376141 /* common_list_icon_leftarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@3x.png"; sourceTree = "<group>"; };
+		8F1000EC22EEE85900376141 /* common_list_icon_leftarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_list_icon_leftarrow@2x.png"; sourceTree = "<group>"; };
+		8F1000ED22EEE85900376141 /* list_icon_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_icon_select@2x.png"; sourceTree = "<group>"; };
+		8F1000EE22EEE85900376141 /* list_icon_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list_icon_select@3x.png"; sourceTree = "<group>"; };
+		8F1000EF22EEE85900376141 /* device_btn_refresh_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_btn_refresh_nor@2x.png"; sourceTree = "<group>"; };
+		8F1000F022EEE85900376141 /* common_nav_btn_back_white_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_nav_btn_back_white_nor@3x.png"; sourceTree = "<group>"; };
+		8F1000F122EEE85900376141 /* common_nav_btn_back_white_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_nav_btn_back_white_nor@2x.png"; sourceTree = "<group>"; };
+		8F1000F222EEE85900376141 /* device_btn_refresh_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_btn_refresh_nor@3x.png"; sourceTree = "<group>"; };
+		8F1000F322EEE85900376141 /* common_nav_btn_back_nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_nav_btn_back_nor@3x.png"; sourceTree = "<group>"; };
+		8F1000F422EEE85900376141 /* common_nav_btn_back_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_nav_btn_back_nor@2x.png"; sourceTree = "<group>"; };
+		8F1000F622EEE85A00376141 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		8F1000F722EEE85A00376141 /* Utils+UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Utils+UI.h"; sourceTree = "<group>"; };
+		8F1000F822EEE85A00376141 /* Utils+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Utils+UI.m"; sourceTree = "<group>"; };
+		8F1000F922EEE85A00376141 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		8F1000FA22EEE85A00376141 /* UtilsHeads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsHeads.h; sourceTree = "<group>"; };
+		8F1000FC22EEE85A00376141 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		8F1000FE22EEE85A00376141 /* CenterSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterSettingViewController.m; sourceTree = "<group>"; };
+		8F1000FF22EEE85A00376141 /* CenterSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CenterSettingViewController.xib; sourceTree = "<group>"; };
+		8F10010022EEE85A00376141 /* CenterSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterSettingViewController.h; sourceTree = "<group>"; };
+		8F10010122EEE85A00376141 /* ResetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetCell.xib; sourceTree = "<group>"; };
+		8F10010222EEE85A00376141 /* ResetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetCell.h; sourceTree = "<group>"; };
+		8F10010F22EEE85A00376141 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8F10011122EEE85A00376141 /* AlarmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmViewController.xib; sourceTree = "<group>"; };
+		8F10011222EEE85A00376141 /* WeekdaySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekdaySelectViewController.h; sourceTree = "<group>"; };
+		8F10011322EEE85A00376141 /* MusicListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicListViewController.xib; sourceTree = "<group>"; };
+		8F10011422EEE85A00376141 /* WeekdaySelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeekdaySelectViewController.xib; sourceTree = "<group>"; };
+		8F10011522EEE85A00376141 /* AlarmListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmListViewController.m; sourceTree = "<group>"; };
+		8F10011622EEE85A00376141 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		8F10011722EEE85A00376141 /* AlarmListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlarmListViewController.xib; sourceTree = "<group>"; };
+		8F10011822EEE85A00376141 /* AlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmViewController.h; sourceTree = "<group>"; };
+		8F10011A22EEE85A00376141 /* WeekdayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekdayInfo.m; sourceTree = "<group>"; };
+		8F10011B22EEE85A00376141 /* AlarmDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmDataModel.h; sourceTree = "<group>"; };
+		8F10011C22EEE85A00376141 /* MusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicInfo.m; sourceTree = "<group>"; };
+		8F10011D22EEE85A00376141 /* SLPViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPViewInfo.h; sourceTree = "<group>"; };
+		8F10011E22EEE85A00376141 /* SLPWeekDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPWeekDay.m; sourceTree = "<group>"; };
+		8F10011F22EEE85A00376141 /* WeekdayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekdayInfo.h; sourceTree = "<group>"; };
+		8F10012022EEE85A00376141 /* AlarmDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmDataModel.m; sourceTree = "<group>"; };
+		8F10012122EEE85A00376141 /* MusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicInfo.h; sourceTree = "<group>"; };
+		8F10012222EEE85A00376141 /* SLPWeekDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPWeekDay.h; sourceTree = "<group>"; };
+		8F10012322EEE85A00376141 /* SLPViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPViewInfo.m; sourceTree = "<group>"; };
+		8F10012522EEE85A00376141 /* SLPLabelFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPLabelFooter.xib; sourceTree = "<group>"; };
+		8F10012622EEE85A00376141 /* TitleValueSwitchCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleValueSwitchCellTableViewCell.xib; sourceTree = "<group>"; };
+		8F10012722EEE85A00376141 /* SLPLabelFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPLabelFooter.h; sourceTree = "<group>"; };
+		8F10012822EEE85A00376141 /* TitleSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleSwitchCell.xib; sourceTree = "<group>"; };
+		8F10012922EEE85A00376141 /* TitleSubTitleArrowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TitleSubTitleArrowCell.xib; sourceTree = "<group>"; };
+		8F10012A22EEE85A00376141 /* SelectItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectItemCell.h; sourceTree = "<group>"; };
+		8F10012B22EEE85A00376141 /* TitleValueSwitchCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleValueSwitchCellTableViewCell.m; sourceTree = "<group>"; };
+		8F10012C22EEE85A00376141 /* SLPAlarmFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPAlarmFooter.m; sourceTree = "<group>"; };
+		8F10012D22EEE85A00376141 /* TitleSubTitleArrowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleSubTitleArrowCell.m; sourceTree = "<group>"; };
+		8F10012E22EEE85A00376141 /* TitleSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleSwitchCell.m; sourceTree = "<group>"; };
+		8F10012F22EEE85A00376141 /* SLPAlarmFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPAlarmFooter.xib; sourceTree = "<group>"; };
+		8F10013022EEE85A00376141 /* SLPLabelFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPLabelFooter.m; sourceTree = "<group>"; };
+		8F10013122EEE85A00376141 /* TitleValueSwitchCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleValueSwitchCellTableViewCell.h; sourceTree = "<group>"; };
+		8F10013222EEE85A00376141 /* SelectItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectItemCell.m; sourceTree = "<group>"; };
+		8F10013322EEE85A00376141 /* SelectItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectItemCell.xib; sourceTree = "<group>"; };
+		8F10013422EEE85A00376141 /* TitleSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleSwitchCell.h; sourceTree = "<group>"; };
+		8F10013522EEE85A00376141 /* TitleSubTitleArrowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleSubTitleArrowCell.h; sourceTree = "<group>"; };
+		8F10013622EEE85A00376141 /* SLPAlarmFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPAlarmFooter.h; sourceTree = "<group>"; };
+		8F10013722EEE85A00376141 /* AlarmListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmListViewController.h; sourceTree = "<group>"; };
+		8F10013822EEE85A00376141 /* WeekdaySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekdaySelectViewController.m; sourceTree = "<group>"; };
+		8F10013922EEE85A00376141 /* AlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmViewController.m; sourceTree = "<group>"; };
+		8F10013A22EEE85A00376141 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		8F10013B22EEE85A00376141 /* ResetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetCell.m; sourceTree = "<group>"; };
+		8F10013C22EEE85A00376141 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		8F10013E22EEE85A00376141 /* DeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceViewController.xib; sourceTree = "<group>"; };
+		8F10013F22EEE85A00376141 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		8F10014022EEE85A00376141 /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		8F10014122EEE85A00376141 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		8F10014222EEE85A00376141 /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		8F10014322EEE85A00376141 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		8F10014522EEE85A00376141 /* VerticalDashView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalDashView.h; sourceTree = "<group>"; };
+		8F10014622EEE85A00376141 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		8F10014722EEE85A00376141 /* SLPTableSectionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPTableSectionData.m; sourceTree = "<group>"; };
+		8F10014822EEE85A00376141 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		8F10014A22EEE85A00376141 /* SLPLoadingBlockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPLoadingBlockView.xib; sourceTree = "<group>"; };
+		8F10014B22EEE85A00376141 /* SLPPopBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPPopBaseView.h; sourceTree = "<group>"; };
+		8F10014C22EEE85A00376141 /* DatePickerPopUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerPopUpView.xib; sourceTree = "<group>"; };
+		8F10014D22EEE85A00376141 /* PopUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpView.xib; sourceTree = "<group>"; };
+		8F10014E22EEE85A00376141 /* PopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpView.m; sourceTree = "<group>"; };
+		8F10014F22EEE85A00376141 /* DatePickerPopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerPopUpView.m; sourceTree = "<group>"; };
+		8F10015022EEE85A00376141 /* SLPLoadingBlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPLoadingBlockView.m; sourceTree = "<group>"; };
+		8F10015122EEE85A00376141 /* SLPPopBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPPopBaseView.m; sourceTree = "<group>"; };
+		8F10015222EEE85A00376141 /* SLPLoadingBlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPLoadingBlockView.h; sourceTree = "<group>"; };
+		8F10015322EEE85A00376141 /* DatePickerPopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerPopUpView.h; sourceTree = "<group>"; };
+		8F10015422EEE85A00376141 /* PopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpView.h; sourceTree = "<group>"; };
+		8F10015522EEE85A00376141 /* HorizontalDashLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalDashLine.h; sourceTree = "<group>"; };
+		8F10015722EEE85A00376141 /* SLPUtils+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLPUtils+Data.h"; sourceTree = "<group>"; };
+		8F10015822EEE85A00376141 /* SLPUtilHeads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPUtilHeads.h; sourceTree = "<group>"; };
+		8F10015922EEE85A00376141 /* SLPUtils+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SLPUtils+Date.h"; sourceTree = "<group>"; };
+		8F10015A22EEE85A00376141 /* SLPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPUtils.m; sourceTree = "<group>"; };
+		8F10015B22EEE85A00376141 /* SLPUtils+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLPUtils+Date.m"; sourceTree = "<group>"; };
+		8F10015C22EEE85A00376141 /* SLPUtils+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SLPUtils+Data.m"; sourceTree = "<group>"; };
+		8F10015D22EEE85A00376141 /* SLPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPUtils.h; sourceTree = "<group>"; };
+		8F10015E22EEE85A00376141 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		8F10015F22EEE85A00376141 /* VerticalDashView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalDashView.m; sourceTree = "<group>"; };
+		8F10016022EEE85A00376141 /* SLPTableSectionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPTableSectionData.h; sourceTree = "<group>"; };
+		8F10016122EEE85A00376141 /* consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = consts.h; sourceTree = "<group>"; };
+		8F10016322EEE85A00376141 /* SLPTime12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPTime12.m; sourceTree = "<group>"; };
+		8F10016422EEE85A00376141 /* SLPTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPTime.h; sourceTree = "<group>"; };
+		8F10016522EEE85A00376141 /* SLPTime24.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPTime24.m; sourceTree = "<group>"; };
+		8F10016622EEE85A00376141 /* SLPTime12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPTime12.h; sourceTree = "<group>"; };
+		8F10016722EEE85A00376141 /* SLPTime24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPTime24.h; sourceTree = "<group>"; };
+		8F10016822EEE85A00376141 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		8F10016922EEE85A00376141 /* HorizontalDashLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalDashLine.m; sourceTree = "<group>"; };
+		8F10016B22EEE85A00376141 /* TimePickerSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimePickerSelectView.m; sourceTree = "<group>"; };
+		8F10016C22EEE85A00376141 /* SLPMinuteSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPMinuteSelectView.m; sourceTree = "<group>"; };
+		8F10016D22EEE85A00376141 /* HourMinutePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HourMinutePicker.m; sourceTree = "<group>"; };
+		8F10016E22EEE85A00376141 /* HourMinutePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HourMinutePicker.xib; sourceTree = "<group>"; };
+		8F10016F22EEE85A00376141 /* SLPMinutePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPMinutePicker.m; sourceTree = "<group>"; };
+		8F10017022EEE85A00376141 /* SLPTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPTimePicker.m; sourceTree = "<group>"; };
+		8F10017122EEE85A00376141 /* TimePickerSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimePickerSelectView.h; sourceTree = "<group>"; };
+		8F10017222EEE85A00376141 /* SLPMinuteSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPMinuteSelectView.h; sourceTree = "<group>"; };
+		8F10017322EEE85A00376141 /* HourMinutePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HourMinutePicker.h; sourceTree = "<group>"; };
+		8F10017422EEE85A00376141 /* SLPMinuteSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLPMinuteSelectView.xib; sourceTree = "<group>"; };
+		8F10017522EEE85A00376141 /* TimePickerSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimePickerSelectView.xib; sourceTree = "<group>"; };
+		8F10017622EEE85A00376141 /* SLPTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPTimePicker.h; sourceTree = "<group>"; };
+		8F10017722EEE85A00376141 /* SLPMinutePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPMinutePicker.h; sourceTree = "<group>"; };
+		8F1001DA22EEE8DD00376141 /* BLENox2Demo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLENox2Demo.pch; sourceTree = "<group>"; };
+		8F1001DD22EEF1DC00376141 /* SLPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SLPCommon.framework; sourceTree = "<group>"; };
 		8F10FF6422EEE73C00376141 /* BLENox2Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLENox2Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F10FF6722EEE73C00376141 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F10FF6822EEE73C00376141 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +344,9 @@
 		8F10FF8722EEE73E00376141 /* BLENox2DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLENox2DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F10FF8B22EEE73E00376141 /* BLENox2DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLENox2DemoUITests.m; sourceTree = "<group>"; };
 		8F10FF8D22EEE73E00376141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F52DB3E22EEF442001F1CE5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8FB5085022FA70AC00DC6061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8FB5098622FD063800DC6061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +354,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F023B7522F18C29001B6D23 /* BleNox.framework in Frameworks */,
+				8F52DB3F22EEF442001F1CE5 /* libc++.tbd in Frameworks */,
+				8F1001E022EEF1DC00376141 /* SLPCommon.framework in Frameworks */,
+				8F023B7422F18C29001B6D23 /* BluetoothManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +378,369 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F023B3922F035EC001B6D23 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				8F023B5022F16EA0001B6D23 /* SLPCellHeaderView.h */,
+				8F023B4F22F16EA0001B6D23 /* SLPCellHeaderView.m */,
+				8F023B5422F16EA1001B6D23 /* SLPCellHeaderView.xib */,
+				8F023B5322F16EA0001B6D23 /* SLPTitleImageCell.h */,
+				8F023B5522F16EA1001B6D23 /* SLPTitleImageCell.m */,
+				8F023B5622F16EA1001B6D23 /* SLPTitleImageCell.xib */,
+				8F023B5122F16EA0001B6D23 /* SLPTitleTableViewCell.h */,
+				8F023B5222F16EA0001B6D23 /* SLPTitleTableViewCell.m */,
+				8F023B5722F16EA1001B6D23 /* SLPTitleTableViewCell.xib */,
+				8F023B4A22F16734001B6D23 /* GestureControlViewController.h */,
+				8F023B4B22F16734001B6D23 /* GestureControlViewController.m */,
+				8F023B4C22F16734001B6D23 /* GestureControlViewController.xib */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		8F023B3A22F035EC001B6D23 /* NightLight */ = {
+			isa = PBXGroup;
+			children = (
+				8F023B3B22F03662001B6D23 /* NightLightViewContronller.h */,
+				8F023B3C22F03662001B6D23 /* NightLightViewContronller.m */,
+				8F023B3D22F03662001B6D23 /* NightLightViewContronller.xib */,
+				8F023B4022F04A21001B6D23 /* SetLightViewController.h */,
+				8F023B4122F04A21001B6D23 /* SetLightViewController.m */,
+				8F023B4222F04A21001B6D23 /* SetLightViewController.xib */,
+				8F023B4522F04A36001B6D23 /* SetTimeViewController.h */,
+				8F023B4622F04A36001B6D23 /* SetTimeViewController.m */,
+				8F023B4722F04A36001B6D23 /* SetTimeViewController.xib */,
+			);
+			path = NightLight;
+			sourceTree = "<group>";
+		};
+		8F1000BD22EEE85900376141 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000BE22EEE85900376141 /* DataManager.h */,
+				8F1000BF22EEE85900376141 /* DataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		8F1000C022EEE85900376141 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000C722EEE85900376141 /* ControlAromaViewController.h */,
+				8F1000D022EEE85900376141 /* ControlAromaViewController.m */,
+				8F1000C522EEE85900376141 /* ControlAromaViewController.xib */,
+				8F1000C322EEE85900376141 /* ControlLightViewController.h */,
+				8F1000CF22EEE85900376141 /* ControlLightViewController.m */,
+				8F1000C222EEE85900376141 /* ControlLightViewController.xib */,
+				8F1000CE22EEE85900376141 /* ControlSleepAidViewController.h */,
+				8F1000C422EEE85900376141 /* ControlSleepAidViewController.m */,
+				8F1000C122EEE85900376141 /* ControlSleepAidViewController.xib */,
+				8F1000C622EEE85900376141 /* ControlViewController.h */,
+				8F1000D122EEE85900376141 /* ControlViewController.m */,
+				8F1000CD22EEE85900376141 /* ControlViewController.xib */,
+				8F1000C822EEE85900376141 /* View */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		8F1000C822EEE85900376141 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000C922EEE85900376141 /* CustomStyleButton.m */,
+				8F1000CA22EEE85900376141 /* CustomColorButton.h */,
+				8F1000CB22EEE85900376141 /* CustomStyleButton.h */,
+				8F1000CC22EEE85900376141 /* CustomColorButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F1000D222EEE85900376141 /* Coordinate */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000D322EEE85900376141 /* Coordinate.h */,
+				8F1000D422EEE85900376141 /* Coordinate.m */,
+			);
+			path = Coordinate;
+			sourceTree = "<group>";
+		};
+		8F1000D522EEE85900376141 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000D622EEE85900376141 /* TabBarItemCell.h */,
+				8F1000D722EEE85900376141 /* TabBarItemCell.xib */,
+				8F1000D822EEE85900376141 /* MainViewController.xib */,
+				8F1000D922EEE85900376141 /* MainViewController.m */,
+				8F1000DA22EEE85900376141 /* TabBarItemCell.m */,
+				8F1000DB22EEE85900376141 /* MainViewController.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8F1000DC22EEE85900376141 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000DD22EEE85900376141 /* Theme.h */,
+				8F1000DE22EEE85900376141 /* Theme.m */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		8F1000DF22EEE85900376141 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8F023B7E22F27FFB001B6D23 /* SN902B_20180509.1.24_release.MVA */,
+				8F1000E122EEE85900376141 /* Language */,
+				8F1000EA22EEE85900376141 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8F1000E122EEE85900376141 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000E222EEE85900376141 /* InfoPlist */,
+				8F1000E622EEE85900376141 /* Localizable */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		8F1000E222EEE85900376141 /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000E322EEE85900376141 /* InfoPlist.strings */,
+			);
+			path = InfoPlist;
+			sourceTree = "<group>";
+		};
+		8F1000E622EEE85900376141 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000E722EEE85900376141 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		8F1000EA22EEE85900376141 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8F023B5F22F17403001B6D23 /* device_icon_choice@2x.png */,
+				8F023B5E22F17402001B6D23 /* device_icon_choice@3x.png */,
+				8F023B6122F17403001B6D23 /* device_pic_nox2_handstop@2x.jpg */,
+				8F023B6022F17403001B6D23 /* device_pic_nox2_usetutorial_page2@2x.jpg */,
+				8F1000EB22EEE85900376141 /* common_list_icon_leftarrow@3x.png */,
+				8F1000EC22EEE85900376141 /* common_list_icon_leftarrow@2x.png */,
+				8F1000ED22EEE85900376141 /* list_icon_select@2x.png */,
+				8F1000EE22EEE85900376141 /* list_icon_select@3x.png */,
+				8F1000EF22EEE85900376141 /* device_btn_refresh_nor@2x.png */,
+				8F1000F022EEE85900376141 /* common_nav_btn_back_white_nor@3x.png */,
+				8F1000F122EEE85900376141 /* common_nav_btn_back_white_nor@2x.png */,
+				8F1000F222EEE85900376141 /* device_btn_refresh_nor@3x.png */,
+				8F1000F322EEE85900376141 /* common_nav_btn_back_nor@3x.png */,
+				8F1000F422EEE85900376141 /* common_nav_btn_back_nor@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		8F1000F522EEE85A00376141 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F1000F622EEE85A00376141 /* Utils.h */,
+				8F1000F722EEE85A00376141 /* Utils+UI.h */,
+				8F1000F822EEE85A00376141 /* Utils+UI.m */,
+				8F1000F922EEE85A00376141 /* Utils.m */,
+				8F1000FA22EEE85A00376141 /* UtilsHeads.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		8F1000FB22EEE85A00376141 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8F023B3922F035EC001B6D23 /* Gesture */,
+				8F023B3A22F035EC001B6D23 /* NightLight */,
+				8F10011022EEE85A00376141 /* Alarm */,
+				8F1000FD22EEE85A00376141 /* CenterSetting */,
+				8F10010222EEE85A00376141 /* ResetCell.h */,
+				8F10013B22EEE85A00376141 /* ResetCell.m */,
+				8F10010122EEE85A00376141 /* ResetCell.xib */,
+				8F10010F22EEE85A00376141 /* SettingsViewController.h */,
+				8F1000FC22EEE85A00376141 /* SettingsViewController.m */,
+				8F10013C22EEE85A00376141 /* SettingsViewController.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8F1000FD22EEE85A00376141 /* CenterSetting */ = {
+			isa = PBXGroup;
+			children = (
+				8F10010022EEE85A00376141 /* CenterSettingViewController.h */,
+				8F1000FE22EEE85A00376141 /* CenterSettingViewController.m */,
+				8F1000FF22EEE85A00376141 /* CenterSettingViewController.xib */,
+			);
+			path = CenterSetting;
+			sourceTree = "<group>";
+		};
+		8F10011022EEE85A00376141 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				8F10013722EEE85A00376141 /* AlarmListViewController.h */,
+				8F10011522EEE85A00376141 /* AlarmListViewController.m */,
+				8F10011722EEE85A00376141 /* AlarmListViewController.xib */,
+				8F10011822EEE85A00376141 /* AlarmViewController.h */,
+				8F10013922EEE85A00376141 /* AlarmViewController.m */,
+				8F10011122EEE85A00376141 /* AlarmViewController.xib */,
+				8F10011922EEE85A00376141 /* Model */,
+				8F10013A22EEE85A00376141 /* MusicListViewController.h */,
+				8F10011622EEE85A00376141 /* MusicListViewController.m */,
+				8F10011322EEE85A00376141 /* MusicListViewController.xib */,
+				8F10012422EEE85A00376141 /* View */,
+				8F10011222EEE85A00376141 /* WeekdaySelectViewController.h */,
+				8F10013822EEE85A00376141 /* WeekdaySelectViewController.m */,
+				8F10011422EEE85A00376141 /* WeekdaySelectViewController.xib */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		8F10011922EEE85A00376141 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F10011A22EEE85A00376141 /* WeekdayInfo.m */,
+				8F10011B22EEE85A00376141 /* AlarmDataModel.h */,
+				8F10011C22EEE85A00376141 /* MusicInfo.m */,
+				8F10011D22EEE85A00376141 /* SLPViewInfo.h */,
+				8F10011E22EEE85A00376141 /* SLPWeekDay.m */,
+				8F10011F22EEE85A00376141 /* WeekdayInfo.h */,
+				8F10012022EEE85A00376141 /* AlarmDataModel.m */,
+				8F10012122EEE85A00376141 /* MusicInfo.h */,
+				8F10012222EEE85A00376141 /* SLPWeekDay.h */,
+				8F10012322EEE85A00376141 /* SLPViewInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F10012422EEE85A00376141 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F10012A22EEE85A00376141 /* SelectItemCell.h */,
+				8F10013222EEE85A00376141 /* SelectItemCell.m */,
+				8F10013322EEE85A00376141 /* SelectItemCell.xib */,
+				8F10013622EEE85A00376141 /* SLPAlarmFooter.h */,
+				8F10012C22EEE85A00376141 /* SLPAlarmFooter.m */,
+				8F10012F22EEE85A00376141 /* SLPAlarmFooter.xib */,
+				8F10012722EEE85A00376141 /* SLPLabelFooter.h */,
+				8F10013022EEE85A00376141 /* SLPLabelFooter.m */,
+				8F10012522EEE85A00376141 /* SLPLabelFooter.xib */,
+				8F10013522EEE85A00376141 /* TitleSubTitleArrowCell.h */,
+				8F10012D22EEE85A00376141 /* TitleSubTitleArrowCell.m */,
+				8F10012922EEE85A00376141 /* TitleSubTitleArrowCell.xib */,
+				8F10013422EEE85A00376141 /* TitleSwitchCell.h */,
+				8F10012E22EEE85A00376141 /* TitleSwitchCell.m */,
+				8F10012822EEE85A00376141 /* TitleSwitchCell.xib */,
+				8F10013122EEE85A00376141 /* TitleValueSwitchCellTableViewCell.h */,
+				8F10012B22EEE85A00376141 /* TitleValueSwitchCellTableViewCell.m */,
+				8F10012622EEE85A00376141 /* TitleValueSwitchCellTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8F10013D22EEE85A00376141 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				8F10014222EEE85A00376141 /* DeviceViewController.h */,
+				8F10014022EEE85A00376141 /* DeviceViewController.m */,
+				8F10013E22EEE85A00376141 /* DeviceViewController.xib */,
+				8F10014322EEE85A00376141 /* SearchViewController.h */,
+				8F10013F22EEE85A00376141 /* SearchViewController.m */,
+				8F10014122EEE85A00376141 /* SearchViewController.xib */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		8F10014422EEE85A00376141 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				8F10015E22EEE85A00376141 /* BaseTableViewCell.h */,
+				8F10014622EEE85A00376141 /* BaseTableViewCell.m */,
+				8F10016822EEE85A00376141 /* BaseViewController.h */,
+				8F10014822EEE85A00376141 /* BaseViewController.m */,
+				8F10016122EEE85A00376141 /* consts.h */,
+				8F10015522EEE85A00376141 /* HorizontalDashLine.h */,
+				8F10016922EEE85A00376141 /* HorizontalDashLine.m */,
+				8F10014922EEE85A00376141 /* pop up */,
+				8F10016022EEE85A00376141 /* SLPTableSectionData.h */,
+				8F10014722EEE85A00376141 /* SLPTableSectionData.m */,
+				8F10016222EEE85A00376141 /* SLPTime */,
+				8F10016A22EEE85A00376141 /* SLPTimePicker */,
+				8F10015622EEE85A00376141 /* SLPUtils */,
+				8F10014522EEE85A00376141 /* VerticalDashView.h */,
+				8F10015F22EEE85A00376141 /* VerticalDashView.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		8F10014922EEE85A00376141 /* pop up */ = {
+			isa = PBXGroup;
+			children = (
+				8F10014A22EEE85A00376141 /* SLPLoadingBlockView.xib */,
+				8F10014B22EEE85A00376141 /* SLPPopBaseView.h */,
+				8F10014C22EEE85A00376141 /* DatePickerPopUpView.xib */,
+				8F10014D22EEE85A00376141 /* PopUpView.xib */,
+				8F10014E22EEE85A00376141 /* PopUpView.m */,
+				8F10014F22EEE85A00376141 /* DatePickerPopUpView.m */,
+				8F10015022EEE85A00376141 /* SLPLoadingBlockView.m */,
+				8F10015122EEE85A00376141 /* SLPPopBaseView.m */,
+				8F10015222EEE85A00376141 /* SLPLoadingBlockView.h */,
+				8F10015322EEE85A00376141 /* DatePickerPopUpView.h */,
+				8F10015422EEE85A00376141 /* PopUpView.h */,
+			);
+			path = "pop up";
+			sourceTree = "<group>";
+		};
+		8F10015622EEE85A00376141 /* SLPUtils */ = {
+			isa = PBXGroup;
+			children = (
+				8F10015722EEE85A00376141 /* SLPUtils+Data.h */,
+				8F10015822EEE85A00376141 /* SLPUtilHeads.h */,
+				8F10015922EEE85A00376141 /* SLPUtils+Date.h */,
+				8F10015A22EEE85A00376141 /* SLPUtils.m */,
+				8F10015B22EEE85A00376141 /* SLPUtils+Date.m */,
+				8F10015C22EEE85A00376141 /* SLPUtils+Data.m */,
+				8F10015D22EEE85A00376141 /* SLPUtils.h */,
+			);
+			path = SLPUtils;
+			sourceTree = "<group>";
+		};
+		8F10016222EEE85A00376141 /* SLPTime */ = {
+			isa = PBXGroup;
+			children = (
+				8F10016322EEE85A00376141 /* SLPTime12.m */,
+				8F10016422EEE85A00376141 /* SLPTime.h */,
+				8F10016522EEE85A00376141 /* SLPTime24.m */,
+				8F10016622EEE85A00376141 /* SLPTime12.h */,
+				8F10016722EEE85A00376141 /* SLPTime24.h */,
+			);
+			path = SLPTime;
+			sourceTree = "<group>";
+		};
+		8F10016A22EEE85A00376141 /* SLPTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				8F10016B22EEE85A00376141 /* TimePickerSelectView.m */,
+				8F10016C22EEE85A00376141 /* SLPMinuteSelectView.m */,
+				8F10016D22EEE85A00376141 /* HourMinutePicker.m */,
+				8F10016E22EEE85A00376141 /* HourMinutePicker.xib */,
+				8F10016F22EEE85A00376141 /* SLPMinutePicker.m */,
+				8F10017022EEE85A00376141 /* SLPTimePicker.m */,
+				8F10017122EEE85A00376141 /* TimePickerSelectView.h */,
+				8F10017222EEE85A00376141 /* SLPMinuteSelectView.h */,
+				8F10017322EEE85A00376141 /* HourMinutePicker.h */,
+				8F10017422EEE85A00376141 /* SLPMinuteSelectView.xib */,
+				8F10017522EEE85A00376141 /* TimePickerSelectView.xib */,
+				8F10017622EEE85A00376141 /* SLPTimePicker.h */,
+				8F10017722EEE85A00376141 /* SLPMinutePicker.h */,
+			);
+			path = SLPTimePicker;
+			sourceTree = "<group>";
+		};
 		8F10FF5B22EEE73C00376141 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +748,7 @@
 				8F10FF7F22EEE73D00376141 /* BLENox2DemoTests */,
 				8F10FF8A22EEE73E00376141 /* BLENox2DemoUITests */,
 				8F10FF6522EEE73C00376141 /* Products */,
+				8F52DB3D22EEF442001F1CE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +765,17 @@
 		8F10FF6622EEE73C00376141 /* BLENox2Demo */ = {
 			isa = PBXGroup;
 			children = (
+				8F10FF9922EEE7D700376141 /* libs */,
+				8F10014422EEE85A00376141 /* common */,
+				8F1000C022EEE85900376141 /* Control */,
+				8F1000D222EEE85900376141 /* Coordinate */,
+				8F1000BD22EEE85900376141 /* DataManager */,
+				8F10013D22EEE85A00376141 /* Device */,
+				8F1000D522EEE85900376141 /* Main */,
+				8F1000DF22EEE85900376141 /* Resource */,
+				8F1000FB22EEE85A00376141 /* Settings */,
+				8F1000DC22EEE85900376141 /* Theme */,
+				8F1000F522EEE85A00376141 /* utils */,
 				8F10FF6722EEE73C00376141 /* AppDelegate.h */,
 				8F10FF6822EEE73C00376141 /* AppDelegate.m */,
 				8F10FF6A22EEE73C00376141 /* ViewController.h */,
@@ -110,6 +785,7 @@
 				8F10FF7222EEE73D00376141 /* LaunchScreen.storyboard */,
 				8F10FF7522EEE73D00376141 /* Info.plist */,
 				8F10FF7622EEE73D00376141 /* main.m */,
+				8F1001DA22EEE8DD00376141 /* BLENox2Demo.pch */,
 			);
 			path = BLENox2Demo;
 			sourceTree = "<group>";
@@ -130,6 +806,24 @@
 				8F10FF8D22EEE73E00376141 /* Info.plist */,
 			);
 			path = BLENox2DemoUITests;
+			sourceTree = "<group>";
+		};
+		8F10FF9922EEE7D700376141 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8F023B7322F18C29001B6D23 /* BleNox.framework */,
+				8F023B7222F18C29001B6D23 /* BluetoothManager.framework */,
+				8F1001DD22EEF1DC00376141 /* SLPCommon.framework */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		8F52DB3D22EEF442001F1CE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F52DB3E22EEF442001F1CE5 /* libc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +911,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 8F10FF5B22EEE73C00376141;
 			productRefGroup = 8F10FF6522EEE73C00376141 /* Products */;
@@ -235,9 +931,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1001A322EEE85A00376141 /* MusicListViewController.xib in Resources */,
 				8F10FF7422EEE73D00376141 /* LaunchScreen.storyboard in Resources */,
+				8F1001C522EEE85B00376141 /* DatePickerPopUpView.xib in Resources */,
+				8F10019B22EEE85A00376141 /* ResetCell.xib in Resources */,
+				8F10018B22EEE85A00376141 /* Localizable.strings in Resources */,
+				8F1001A222EEE85A00376141 /* AlarmViewController.xib in Resources */,
+				8F10017F22EEE85A00376141 /* ControlViewController.xib in Resources */,
 				8F10FF7122EEE73D00376141 /* Assets.xcassets in Resources */,
+				8F023B6422F17403001B6D23 /* device_pic_nox2_usetutorial_page2@2x.jpg in Resources */,
+				8F10018C22EEE85A00376141 /* common_list_icon_leftarrow@3x.png in Resources */,
+				8F1001D522EEE85B00376141 /* HourMinutePicker.xib in Resources */,
+				8F1001B522EEE85A00376141 /* SLPAlarmFooter.xib in Resources */,
+				8F1001B822EEE85A00376141 /* SelectItemCell.xib in Resources */,
 				8F10FF6F22EEE73C00376141 /* Main.storyboard in Resources */,
+				8F1001AE22EEE85A00376141 /* TitleValueSwitchCellTableViewCell.xib in Resources */,
+				8F023B6522F17403001B6D23 /* device_pic_nox2_handstop@2x.jpg in Resources */,
+				8F023B4422F04A21001B6D23 /* SetLightViewController.xib in Resources */,
+				8F023B5C22F16EA1001B6D23 /* SLPTitleImageCell.xib in Resources */,
+				8F10018E22EEE85A00376141 /* list_icon_select@2x.png in Resources */,
+				8F1001D822EEE85B00376141 /* SLPMinuteSelectView.xib in Resources */,
+				8F10019522EEE85A00376141 /* common_nav_btn_back_nor@2x.png in Resources */,
+				8F10019A22EEE85A00376141 /* CenterSettingViewController.xib in Resources */,
+				8F1001BD22EEE85B00376141 /* DeviceViewController.xib in Resources */,
+				8F1001B022EEE85A00376141 /* TitleSubTitleArrowCell.xib in Resources */,
+				8F1001C422EEE85B00376141 /* SLPLoadingBlockView.xib in Resources */,
+				8F023B6322F17403001B6D23 /* device_icon_choice@2x.png in Resources */,
+				8F10018F22EEE85A00376141 /* list_icon_select@3x.png in Resources */,
+				8F1001AF22EEE85A00376141 /* TitleSwitchCell.xib in Resources */,
+				8F023B5A22F16EA1001B6D23 /* SLPCellHeaderView.xib in Resources */,
+				8F10018522EEE85A00376141 /* MainViewController.xib in Resources */,
+				8F023B7F22F27FFB001B6D23 /* SN902B_20180509.1.24_release.MVA in Resources */,
+				8F023B5D22F16EA1001B6D23 /* SLPTitleTableViewCell.xib in Resources */,
+				8F023B6222F17403001B6D23 /* device_icon_choice@3x.png in Resources */,
+				8F10019122EEE85A00376141 /* common_nav_btn_back_white_nor@3x.png in Resources */,
+				8F10017C22EEE85A00376141 /* ControlAromaViewController.xib in Resources */,
+				8F1001BC22EEE85A00376141 /* SettingsViewController.xib in Resources */,
+				8F1001A722EEE85A00376141 /* AlarmListViewController.xib in Resources */,
+				8F10019022EEE85A00376141 /* device_btn_refresh_nor@2x.png in Resources */,
+				8F10017A22EEE85A00376141 /* ControlLightViewController.xib in Resources */,
+				8F023B4922F04A36001B6D23 /* SetTimeViewController.xib in Resources */,
+				8F10018422EEE85A00376141 /* TabBarItemCell.xib in Resources */,
+				8F10018A22EEE85A00376141 /* InfoPlist.strings in Resources */,
+				8F1001AD22EEE85A00376141 /* SLPLabelFooter.xib in Resources */,
+				8F1001C622EEE85B00376141 /* PopUpView.xib in Resources */,
+				8F10017922EEE85A00376141 /* ControlSleepAidViewController.xib in Resources */,
+				8F10018D22EEE85A00376141 /* common_list_icon_leftarrow@2x.png in Resources */,
+				8F023B3F22F03662001B6D23 /* NightLightViewContronller.xib in Resources */,
+				8F1001D922EEE85B00376141 /* TimePickerSelectView.xib in Resources */,
+				8F023B4E22F16734001B6D23 /* GestureControlViewController.xib in Resources */,
+				8F10019322EEE85A00376141 /* device_btn_refresh_nor@3x.png in Resources */,
+				8F10019422EEE85A00376141 /* common_nav_btn_back_nor@3x.png in Resources */,
+				8F1001A422EEE85A00376141 /* WeekdaySelectViewController.xib in Resources */,
+				8F10019222EEE85A00376141 /* common_nav_btn_back_white_nor@2x.png in Resources */,
+				8F1001C022EEE85B00376141 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +1009,68 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F10018122EEE85A00376141 /* ControlAromaViewController.m in Sources */,
+				8F1001BE22EEE85B00376141 /* SearchViewController.m in Sources */,
+				8F023B4D22F16734001B6D23 /* GestureControlViewController.m in Sources */,
+				8F023B4822F04A36001B6D23 /* SetTimeViewController.m in Sources */,
+				8F023B4322F04A21001B6D23 /* SetLightViewController.m in Sources */,
+				8F1001A922EEE85A00376141 /* MusicInfo.m in Sources */,
+				8F10018722EEE85A00376141 /* TabBarItemCell.m in Sources */,
+				8F10017D22EEE85A00376141 /* CustomStyleButton.m in Sources */,
+				8F1001CB22EEE85B00376141 /* SLPUtils.m in Sources */,
+				8F1001A522EEE85A00376141 /* AlarmListViewController.m in Sources */,
+				8F10019722EEE85A00376141 /* Utils.m in Sources */,
+				8F1001D122EEE85B00376141 /* HorizontalDashLine.m in Sources */,
+				8F10019922EEE85A00376141 /* CenterSettingViewController.m in Sources */,
+				8F1001C722EEE85B00376141 /* PopUpView.m in Sources */,
+				8F1001CF22EEE85B00376141 /* SLPTime12.m in Sources */,
+				8F1001B122EEE85A00376141 /* TitleValueSwitchCellTableViewCell.m in Sources */,
+				8F1001B922EEE85A00376141 /* WeekdaySelectViewController.m in Sources */,
 				8F10FF6C22EEE73C00376141 /* ViewController.m in Sources */,
+				8F1001AA22EEE85A00376141 /* SLPWeekDay.m in Sources */,
+				8F1001A622EEE85A00376141 /* MusicListViewController.m in Sources */,
+				8F1001D422EEE85B00376141 /* HourMinutePicker.m in Sources */,
+				8F1001B322EEE85A00376141 /* TitleSubTitleArrowCell.m in Sources */,
+				8F1001C322EEE85B00376141 /* BaseViewController.m in Sources */,
+				8F10017822EEE85A00376141 /* DataManager.m in Sources */,
+				8F1001D222EEE85B00376141 /* TimePickerSelectView.m in Sources */,
+				8F10018222EEE85A00376141 /* ControlViewController.m in Sources */,
+				8F1001B622EEE85A00376141 /* SLPLabelFooter.m in Sources */,
+				8F1001D022EEE85B00376141 /* SLPTime24.m in Sources */,
+				8F1001B422EEE85A00376141 /* TitleSwitchCell.m in Sources */,
+				8F1001D322EEE85B00376141 /* SLPMinuteSelectView.m in Sources */,
+				8F023B5B22F16EA1001B6D23 /* SLPTitleImageCell.m in Sources */,
+				8F1001D722EEE85B00376141 /* SLPTimePicker.m in Sources */,
+				8F1001AB22EEE85A00376141 /* AlarmDataModel.m in Sources */,
 				8F10FF7722EEE73D00376141 /* main.m in Sources */,
+				8F023B5822F16EA1001B6D23 /* SLPCellHeaderView.m in Sources */,
+				8F1001C922EEE85B00376141 /* SLPLoadingBlockView.m in Sources */,
+				8F10019622EEE85A00376141 /* Utils+UI.m in Sources */,
+				8F1001BF22EEE85B00376141 /* DeviceViewController.m in Sources */,
+				8F10019822EEE85A00376141 /* SettingsViewController.m in Sources */,
+				8F10018822EEE85A00376141 /* Theme.m in Sources */,
+				8F1001BB22EEE85A00376141 /* ResetCell.m in Sources */,
+				8F1001B722EEE85A00376141 /* SelectItemCell.m in Sources */,
 				8F10FF6922EEE73C00376141 /* AppDelegate.m in Sources */,
+				8F1001B222EEE85A00376141 /* SLPAlarmFooter.m in Sources */,
+				8F1001A822EEE85A00376141 /* WeekdayInfo.m in Sources */,
+				8F10018622EEE85A00376141 /* MainViewController.m in Sources */,
+				8F1001AC22EEE85A00376141 /* SLPViewInfo.m in Sources */,
+				8F1001CE22EEE85B00376141 /* VerticalDashView.m in Sources */,
+				8F1001D622EEE85B00376141 /* SLPMinutePicker.m in Sources */,
+				8F10017E22EEE85A00376141 /* CustomColorButton.m in Sources */,
+				8F023B3E22F03662001B6D23 /* NightLightViewContronller.m in Sources */,
+				8F1001BA22EEE85A00376141 /* AlarmViewController.m in Sources */,
+				8F10017B22EEE85A00376141 /* ControlSleepAidViewController.m in Sources */,
+				8F023B5922F16EA1001B6D23 /* SLPTitleTableViewCell.m in Sources */,
+				8F1001C122EEE85B00376141 /* BaseTableViewCell.m in Sources */,
+				8F1001C222EEE85B00376141 /* SLPTableSectionData.m in Sources */,
+				8F10018322EEE85A00376141 /* Coordinate.m in Sources */,
+				8F1001CA22EEE85B00376141 /* SLPPopBaseView.m in Sources */,
+				8F1001CD22EEE85B00376141 /* SLPUtils+Data.m in Sources */,
+				8F1001C822EEE85B00376141 /* DatePickerPopUpView.m in Sources */,
+				8F10018022EEE85A00376141 /* ControlLightViewController.m in Sources */,
+				8F1001CC22EEE85B00376141 /* SLPUtils+Date.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +1106,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8F1000E322EEE85900376141 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1000E422EEE85900376141 /* zh-Hans */,
+				8F1000E522EEE85900376141 /* zh-Hant */,
+				8FB5098622FD063800DC6061 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F1000E722EEE85900376141 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F1000E822EEE85900376141 /* zh-Hans */,
+				8F1000E922EEE85900376141 /* zh-Hant */,
+				8FB5085022FA70AC00DC6061 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		8F10FF6D22EEE73C00376141 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,14 +1263,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NV3296URNT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLENox2Demo/libs",
+				);
+				GCC_PREFIX_HEADER = /Users/jieyang/Desktop/BLENox2Demo/BLENox2Demo/BLENox2Demo.pch;
 				INFOPLIST_FILE = BLENox2Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = medica.BLENox2Demo;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					$SRCROOT/BLENox2Demo/libs/BluetoothManager.framework/BluetoothManager,
+					"-force_load",
+					$SRCROOT/BLENox2Demo/libs/BleNox.framework/BleNox,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medica.BLENox2Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,14 +1292,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NV3296URNT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLENox2Demo/libs",
+				);
+				GCC_PREFIX_HEADER = /Users/jieyang/Desktop/BLENox2Demo/BLENox2Demo/BLENox2Demo.pch;
 				INFOPLIST_FILE = BLENox2Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = medica.BLENox2Demo;
+				OTHER_LDFLAGS = (
+					"-force_load",
+					$SRCROOT/BLENox2Demo/libs/BluetoothManager.framework/BluetoothManager,
+					"-force_load",
+					$SRCROOT/BLENox2Demo/libs/BleNox.framework/BleNox,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.medica.BLENox2Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
