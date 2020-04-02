@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264FF7882435791B005E23B3 /* SN902B_20200401.1.28_beta.MVA in Resources */ = {isa = PBXBuildFile; fileRef = 264FF7872435791B005E23B3 /* SN902B_20200401.1.28_beta.MVA */; };
 		8F023B3E22F03662001B6D23 /* NightLightViewContronller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B3C22F03662001B6D23 /* NightLightViewContronller.m */; };
 		8F023B3F22F03662001B6D23 /* NightLightViewContronller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F023B3D22F03662001B6D23 /* NightLightViewContronller.xib */; };
 		8F023B4322F04A21001B6D23 /* SetLightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F023B4122F04A21001B6D23 /* SetLightViewController.m */; };
@@ -149,6 +150,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264FF7872435791B005E23B3 /* SN902B_20200401.1.28_beta.MVA */ = {isa = PBXFileReference; lastKnownFileType = file; path = SN902B_20200401.1.28_beta.MVA; sourceTree = "<group>"; };
 		8F023B3B22F03662001B6D23 /* NightLightViewContronller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NightLightViewContronller.h; sourceTree = "<group>"; };
 		8F023B3C22F03662001B6D23 /* NightLightViewContronller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NightLightViewContronller.m; sourceTree = "<group>"; };
 		8F023B3D22F03662001B6D23 /* NightLightViewContronller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NightLightViewContronller.xib; sourceTree = "<group>"; };
@@ -467,10 +469,10 @@
 			children = (
 				8F1000D622EEE85900376141 /* TabBarItemCell.h */,
 				8F1000D722EEE85900376141 /* TabBarItemCell.xib */,
-				8F1000D822EEE85900376141 /* MainViewController.xib */,
-				8F1000D922EEE85900376141 /* MainViewController.m */,
-				8F1000DA22EEE85900376141 /* TabBarItemCell.m */,
 				8F1000DB22EEE85900376141 /* MainViewController.h */,
+				8F1000D922EEE85900376141 /* MainViewController.m */,
+				8F1000D822EEE85900376141 /* MainViewController.xib */,
+				8F1000DA22EEE85900376141 /* TabBarItemCell.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -487,6 +489,7 @@
 		8F1000DF22EEE85900376141 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				264FF7872435791B005E23B3 /* SN902B_20200401.1.28_beta.MVA */,
 				8F023B7E22F27FFB001B6D23 /* SN902B_20180509.1.24_release.MVA */,
 				8F1000E122EEE85900376141 /* Language */,
 				8F1000EA22EEE85900376141 /* Image */,
@@ -940,6 +943,7 @@
 				8F10017F22EEE85A00376141 /* ControlViewController.xib in Resources */,
 				8F10FF7122EEE73D00376141 /* Assets.xcassets in Resources */,
 				8F023B6422F17403001B6D23 /* device_pic_nox2_usetutorial_page2@2x.jpg in Resources */,
+				264FF7882435791B005E23B3 /* SN902B_20200401.1.28_beta.MVA in Resources */,
 				8F10018C22EEE85A00376141 /* common_list_icon_leftarrow@3x.png in Resources */,
 				8F1001D522EEE85B00376141 /* HourMinutePicker.xib in Resources */,
 				8F1001B522EEE85A00376141 /* SLPAlarmFooter.xib in Resources */,
@@ -1267,7 +1271,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BLENox2Demo/libs",
 				);
-				GCC_PREFIX_HEADER = /Users/jieyang/Desktop/BLENox2Demo/BLENox2Demo/BLENox2Demo.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BLENox2Demo/BLENox2Demo.pch";
 				INFOPLIST_FILE = BLENox2Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1296,7 +1300,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BLENox2Demo/libs",
 				);
-				GCC_PREFIX_HEADER = /Users/jieyang/Desktop/BLENox2Demo/BLENox2Demo/BLENox2Demo.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BLENox2Demo/BLENox2Demo.pch";
 				INFOPLIST_FILE = BLENox2Demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

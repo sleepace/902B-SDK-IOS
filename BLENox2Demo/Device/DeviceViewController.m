@@ -248,7 +248,7 @@
 
 - (IBAction)upgradeClicked:(id)sender {
     KFLog_Normal(YES, @"upgrade");
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"SN902B_20180509.1.24_release" ofType:@"MVA"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"SN902B_20200401.1.28_beta" ofType:@"MVA"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     __weak typeof(self) weakSelf = self;
     SLPLoadingBlockView *loadingView = [self showLoadingView];
