@@ -235,13 +235,12 @@ static NSString *const kHoverSection_Disable = @"kHoverSection_Disable";
     __weak typeof(self) weakSelf = self;
     
     [self showLoadingView];
-    [SLPBLESharedManager bleNox:SharedDataManager.peripheral gestureConfig:self.mode opt:self.currentGestureAction timeout:0 callback:^(SLPDataTransferStatus status, id data) {
+    [SLPBLESharedManager bleNox:SharedDataManager.peripheral gestureConfigSet:self.mode opt:self.currentGestureAction timeout:0 callback:^(SLPDataTransferStatus status, id data) {
         [self unshowLoadingView];
         if (status != SLPDataTransferStatus_Succeed) {
             [Utils showDeviceOperationFailed:status atViewController:weakSelf];
             return;
         }
-        
 //        if (self.mode == GestureModeWave) {
 //            SharedDataManager.waveAction = weakSelf.currentGestureAction;
 //        } else if (self.mode == GestureModeHover) {

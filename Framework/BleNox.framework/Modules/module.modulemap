@@ -1,0 +1,6 @@
+framework module BleNox {
+  umbrella header "BleNox.h"
+
+  export *
+  module * { export * }
+}

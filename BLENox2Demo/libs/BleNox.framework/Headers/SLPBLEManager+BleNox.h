@@ -47,8 +47,14 @@
  opt:操作 0x00: 默认操作 0x01: 播放/暂停 0x02: 切歌(左上右下) 0xFF: 无操作(停用)
  timeout:超时
  */
-- (void)bleNox:(CBPeripheral *)peripheral gestureConfig:(UInt8)gesture opt:(UInt8)opt
+- (void)bleNox:(CBPeripheral *)peripheral gestureConfigSet:(UInt8)gesture opt:(UInt8)opt
        timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+
+/*手势获取
+ timeout:超时
+ */
+- (void)bleNox:(CBPeripheral *)peripheral getGestureConfigTimeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+
 
 /*删除手势
  gesture:手势 0x00: 手势-左右挥手  0x01: 手势-悬停  0x02: 按键-中心键短按
@@ -88,6 +94,7 @@
  @param handle 回调 返回 NSArray<SABAlarmInfo *>
  */
 - (void)bleNox:(CBPeripheral *)peripheral getAlarmListTimeout:(CGFloat)timeout completion:(SLPTransforCallback)handle;
+
 /*打开闹铃
  alarmID: 闹铃ID
  timeout:超时
@@ -105,11 +112,12 @@
  timeout:超时
  */
 - (void)bleNox:(CBPeripheral *)peripheral delAlarm:(UInt64)alarmID timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+
 /*闹铃预览
  alarmID: 闹铃ID
  volume: 音量大小 闹钟最大音量(0-16) 0:静音
  brightness: 灯光亮度 灯光最大亮度(0-100) 0:不亮
- musicID:音乐编号
+ musicID:音乐编号 ，支持本地音乐预览（31001,31002,31003,31004,31005,31006,31007,31008,31009 ）
  timeout:超时
  */
 - (void)bleNox:(CBPeripheral *)peripheral startAlarmRreviewvolume:(UInt8)volume brightness:(UInt8)brightness musicID:(UInt16)musicID timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
@@ -137,15 +145,21 @@
  info: 小夜灯信息
  timeout:超时
  */
-- (void)bleNox:(CBPeripheral *)peripheral nigthLightConfig:(BleNoxNightLightInfo *)info timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)bleNox:(CBPeripheral *)peripheral nigthLightConfigSet:(BleNoxNightLightInfo *)info timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+
+
+/*获取小夜灯设置
+ info: 小夜灯信息
+ timeout:超时
+ */
+- (void)bleNox:(CBPeripheral *)peripheral getNigthLightConfigTimeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+
 
 /*打开白光
- light: 灯光结构
  brightness: 灯光亮度(0-100) 0:不亮
  timeout:超时
  */
-- (void)bleNox:(CBPeripheral *)peripheral turnOnWhiteLight:(SLPLight *)light brightness:(UInt8)brightness
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)bleNox:(CBPeripheral *)peripheral turnOnWhiteLightBrightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /*打开彩光
  light: 灯光结构
@@ -173,7 +187,7 @@
 - (void)bleNox:(CBPeripheral *)peripheral turnOffLightTimeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /*打开音乐
- musicID: 音乐ID
+ musicID: 音乐ID（见文档支持音乐ID）
  volume: 音量 音量(0-16) 0:静音
  playMode: //播放模式 0：顺序播放 1: 随机播放 2: 单曲播放
  timeout:超时
@@ -201,7 +215,7 @@
 
 /*设置播放模式
  playMode: 播放模式 0：顺序播放 1: 随机播放 2: 单曲播放
- musicID: 音乐ID
+ musicID: 音乐ID（见文档支持音乐ID）
  volume: 音量
  timeout:超时
  */
@@ -225,6 +239,7 @@
 
 /*打开助眠音乐
  playMode: //播放模式 0：顺序播放 1: 随机播放 2: 单曲播放
+  musicID: 音乐ID （见文档支持音乐ID）
  timeout:超时
  */
 - (void)bleNox:(CBPeripheral *)peripheral turnOnsleepAidMusic:(UInt16)musicID volume:(UInt8)volume playMode:(UInt8)playMode
@@ -259,4 +274,5 @@
  @param handle 回调
  */
 - (void)bleNox:(CBPeripheral *)peripheral configurePINWithEnable:(UInt8)enable timeout:(CGFloat)timeout completion:(SLPTransforCallback)handle;
+
 @end

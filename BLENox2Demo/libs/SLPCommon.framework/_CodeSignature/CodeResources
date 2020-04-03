@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/KFLoger.h</key>
 		<data>
-		ZB/5U28ui7SP1wJoq4RcKHPr8is=
+		XU4VpmeF8m5zlXGj3WSx1oT9cYg=
 		</data>
 		<key>Headers/Loop.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/SLPDataTransferCommon.h</key>
 		<data>
-		RQ3u0qrcql/lMgrFnS5AH3gDef0=
+		0CTpVvDLXGm31SCQlucDvFWpLDQ=
 		</data>
 		<key>Headers/SLPDataTransferDef.h</key>
 		<data>
-		j69Mgd9KjiI/va91NmPZSBydNXk=
+		nNsWXLFmYvamePhAMGuWU32Wveg=
 		</data>
 		<key>Headers/SLPDeviceInfo.h</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Headers/SLPTools.h</key>
 		<data>
-		qRsWE5D4L2hUi/+ZMQ2w5p+rUFI=
+		4RAX3HRfZzoO7Hqg4OlWxG/TOT0=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bZ2iu/dWj/h1XrL83HhnXOVFZK4=
+		rx42xHlaoA1lD0gOaoHzWtHZquI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,11 +78,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZB/5U28ui7SP1wJoq4RcKHPr8is=
+			XU4VpmeF8m5zlXGj3WSx1oT9cYg=
 			</data>
 			<key>hash2</key>
 			<data>
-			dPihpYEumKxKmFOu3kymlgP0XQk/Vx6zqGLpr0QZ0mE=
+			IzAqoJKTa2FMiy1E+u+zYn7CY9L0NkFShIXINFFp7M8=
 			</data>
 		</dict>
 		<key>Headers/Loop.h</key>
@@ -111,22 +111,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RQ3u0qrcql/lMgrFnS5AH3gDef0=
+			0CTpVvDLXGm31SCQlucDvFWpLDQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xydk1GBuuYH4RAL/G0QBdbxlyXs6UNIjIgeM17DHB3Y=
+			0iAvHIzdpnmq3c6jKxcGIxB9iO/8Qd/UGtqZ26UChrw=
 			</data>
 		</dict>
 		<key>Headers/SLPDataTransferDef.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			j69Mgd9KjiI/va91NmPZSBydNXk=
+			nNsWXLFmYvamePhAMGuWU32Wveg=
 			</data>
 			<key>hash2</key>
 			<data>
-			TY0nXehRmtllx/likFXuCwWp45sukTHuuuf+h43ZVdw=
+			58C9u2mNMdaq0al+GpCycIJLvRxT9AqMG4kJ7tj8+aI=
 			</data>
 		</dict>
 		<key>Headers/SLPDeviceInfo.h</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qRsWE5D4L2hUi/+ZMQ2w5p+rUFI=
+			4RAX3HRfZzoO7Hqg4OlWxG/TOT0=
 			</data>
 			<key>hash2</key>
 			<data>
-			8hbkbwbcIDf/N3kMPhZIbTMkOAnBfCMbK9VVa/Kx3bc=
+			RC47zTMEEvQUgt6vjCHjDjrFHIT351isrvM/6nQ9hdA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
