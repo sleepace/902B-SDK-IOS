@@ -223,7 +223,7 @@
     
     [self showLoadingView];
     __weak typeof(self) weakSelf = self;
-    [SLPBLESharedManager bleNox:SharedDataManager.peripheral nigthLightConfig:info timeout:0 callback:^(SLPDataTransferStatus status, id data) {
+    [SLPBLESharedManager bleNox:SharedDataManager.peripheral nigthLightConfigSet:info timeout:0 callback:^(SLPDataTransferStatus status, id data) {
         [weakSelf unshowLoadingView];
         if (status != SLPDataTransferStatus_Succeed) {
             [Utils showDeviceOperationFailed:status atViewController:weakSelf];

@@ -191,7 +191,7 @@
 
 - (IBAction)getDeviceIDClicked:(id)sender {
     __weak typeof(self) weakSelf = self;
-    KFLog_Normal(YES, @"get deviceId");
+//    KFLog_Normal(YES, @"get deviceId");
     if (![SLPBLESharedManager blueToothIsOpen]) {
         [Utils showMessage:LocalizedString(@"phone_bluetooth_not_open") controller:self];
         return;
@@ -220,7 +220,6 @@
 
 - (IBAction)getDeviceVerionClicked:(id)sender {
     __weak typeof(self) weakSelf = self;
-    KFLog_Normal(YES, @"get deviceVersion");
     if (![SLPBLESharedManager blueToothIsOpen]) {
         [Utils showMessage:LocalizedString(@"phone_bluetooth_not_open") controller:self];
         return;
@@ -247,7 +246,6 @@
 }
 
 - (IBAction)upgradeClicked:(id)sender {
-    KFLog_Normal(YES, @"upgrade");
     NSString *path = [[NSBundle mainBundle] pathForResource:@"SN902B_20200401.1.28_beta" ofType:@"MVA"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     __weak typeof(self) weakSelf = self;
