@@ -53,6 +53,8 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
 
 @property (strong, nonatomic) BleNoxAlarmInfo *alarmDataNew;
 
+@property (nonatomic, copy) NSArray *alramList;
+
 @end
 
 @implementation AlarmViewController
@@ -119,6 +121,20 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
     [self loadSectionData];
     
     [self createFooterList];
+    
+    [self loadAlarmList];
+}
+
+
+
+- (void)loadAlarmList {
+    __weak typeof(self) weakSelf = self;
+    [SLPBLESharedManager bleNox:SharedDataManager.peripheral getAlarmListTimeout:0 completion:^(SLPDataTransferStatus status, id data) {
+        weakSelf.alramList = data;
+        for (BleNoxAlarmInfo *info in data) {
+            NSLog(@"alarm id----%llu--hour--%d--min---%d",info.alarmID,info.hour,info.minute);
+        }
+    }];
 }
 
 - (void)setUI
@@ -128,7 +144,7 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
     self.alarmDataNew = [[BleNoxAlarmInfo alloc] init];
     if (self.alarmPageType == AlarmPageType_Add) {
         self.titleLabel.text = LocalizedString(@"add_alarm");
-        
+         self.addAlarmID = 1000 ;
         [self initDefaultAlarmData];
     }else{
         self.titleLabel.text = LocalizedString(@"edit_alarm");
@@ -152,7 +168,7 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
     self.alarmDataNew.brightness = self.orignalAlarmData.brightness;
     self.alarmDataNew.shake = self.orignalAlarmData.shake;
     self.alarmDataNew.musicID = self.orignalAlarmData.musicID;
-//    self.alarmDataNew.aromaRate = self.orignalAlarmData.aromaRate;
+    //    self.alarmDataNew.aromaRate = self.orignalAlarmData.aromaRate;
     self.alarmDataNew.timestamp = [[NSDate date] timeIntervalSince1970];
 }
 
@@ -169,7 +185,7 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
     self.alarmDataNew.brightness = 100;
     self.alarmDataNew.shake = 0;
     self.alarmDataNew.musicID = 31001;
-//    self.alarmDataNew.aromaRate = 2;
+    //    self.alarmDataNew.aromaRate = 2;
     self.alarmDataNew.timestamp = [[NSDate date] timeIntervalSince1970];
 }
 
@@ -180,9 +196,9 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
     SLPTableSectionData *sectionData1 = [[SLPTableSectionData alloc] init];
     sectionData1.sectionEnum = kSection_SetDeviceInfo;
     NSMutableArray *rowEnumList1 = [NSMutableArray arrayWithObjects:kRowTime, kRowRepeat, kRowMusic, kRowMusicVolumn, kRowLightWake, nil];
-//    if (self.alarmDataNew.snoozeTime) {
-//        [rowEnumList1 addObject:kRowSnoozeTime];
-//    }
+    //    if (self.alarmDataNew.snoozeTime) {
+    //        [rowEnumList1 addObject:kRowSnoozeTime];
+    //    }
     sectionData1.rowEnumList = rowEnumList1;
     [aSectionList addObject:sectionData1];
     
@@ -207,7 +223,7 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
 }
 
 - (SLPViewInfo *)createUnLastFooterForSectionName:(NSString *)sectionName {
-//    NSString *tip = LocalizedString(@"");
+    //    NSString *tip = LocalizedString(@"");
     SLPLabelFooter *footer = [SLPLabelFooter footerViewWithTextStr:@""];
     [footer setHidden:NO];
     SLPViewInfo *info = [SLPViewInfo new];
@@ -419,7 +435,7 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
         };
         cell = sCell;
     }
-
+    
     else if ([rowName isEqualToString:kRowSnooze]){
         TitleSwitchCell *sCell = (TitleSwitchCell *)[SLPUtils tableView:self.tableView cellNibName:@"TitleSwitchCell"];
         sCell.titleLabel.text = LocalizedString(@"snooze_");
@@ -462,11 +478,35 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
     return [SLPUtils timeStringFrom:dataModel.hour minute:dataModel.minute isTimeMode24:[SLPUtils isTimeMode24]];
 }
 
+
+- (void)goAddAlarm
+{
+//    if (self.alramList.count >= 5) {
+//        [Utils showMessage:LocalizedString(@"more_5") controller:self];
+//        return;
+//    }
+    BleNoxAlarmInfo *alarmInfo = [self.alramList lastObject];
+    if (alarmInfo) {
+         self.addAlarmID = alarmInfo.alarmID + 1;
+         self.alarmDataNew.alarmID = self.addAlarmID;
+    }
+}
+
+- (void)editAlarm{
+    
+}
+
 - (IBAction)saveAction:(UIButton *)sender {
     if (![SLPBLESharedManager blueToothIsOpen]) {
         [Utils showMessage:LocalizedString(@"phone_bluetooth_not_open") controller:self];
         return;
     }
+    
+    if (self.alarmPageType == AlarmPageType_Add) {
+        [self goAddAlarm];
+       }else{
+        [self editAlarm];
+       }
     __weak typeof(self) weakSelf = self;
     [SLPBLESharedManager bleNox:SharedDataManager.peripheral alarmConfig:self.alarmDataNew timeout:0 callback:^(SLPDataTransferStatus status, id data) {
         if (status != SLPDataTransferStatus_Succeed) {
@@ -483,16 +523,16 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
             });
         }
     }];
-//    [SLPBLESharedManager SAB:SharedDataManager.peripheral alarmConfig:self.alarmDataNew timeout:0 callback:^(SLPDataTransferStatus status, id data) {
-//        if (status != SLPDataTransferStatus_Succeed) {
-//            [Utils showDeviceOperationFailed:status atViewController:weakSelf];
-//        }else{
-//            if ([self.delegate respondsToSelector:@selector(editAlarmInfoAndShouldReload)]) {
-//                [self.delegate editAlarmInfoAndShouldReload];
-//            }
-//            [weakSelf.navigationController popViewControllerAnimated:YES];
-//        }
-//    }];
+    //    [SLPBLESharedManager SAB:SharedDataManager.peripheral alarmConfig:self.alarmDataNew timeout:0 callback:^(SLPDataTransferStatus status, id data) {
+    //        if (status != SLPDataTransferStatus_Succeed) {
+    //            [Utils showDeviceOperationFailed:status atViewController:weakSelf];
+    //        }else{
+    //            if ([self.delegate respondsToSelector:@selector(editAlarmInfoAndShouldReload)]) {
+    //                [self.delegate editAlarmInfoAndShouldReload];
+    //            }
+    //            [weakSelf.navigationController popViewControllerAnimated:YES];
+    //        }
+    //    }];
 }
 
 -(void)previewBtnTapped:(BOOL)isSelected completion:(void (^)(BOOL))completion
@@ -519,13 +559,13 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
             weakSelf.alarmFooter.isPreviewEnabled = YES;
         }
     }];
-//    [SLPBLESharedManager SAB:SharedDataManager.peripheral startAlarmRreviewVolume:self.alarmDataNew.volume brightness:self.alarmDataNew.brightness aromaRate:self.alarmDataNew.aromaRate musicID:self.alarmDataNew.musicID timeout:0 callback:^(SLPDataTransferStatus status, id data) {
-//        if (status != SLPDataTransferStatus_Succeed) {
-//            [Utils showDeviceOperationFailed:status atViewController:weakSelf];
-//        }else{
-//            weakSelf.alarmFooter.isPreviewEnabled = YES;
-//        }
-//    }];
+    //    [SLPBLESharedManager SAB:SharedDataManager.peripheral startAlarmRreviewVolume:self.alarmDataNew.volume brightness:self.alarmDataNew.brightness aromaRate:self.alarmDataNew.aromaRate musicID:self.alarmDataNew.musicID timeout:0 callback:^(SLPDataTransferStatus status, id data) {
+    //        if (status != SLPDataTransferStatus_Succeed) {
+    //            [Utils showDeviceOperationFailed:status atViewController:weakSelf];
+    //        }else{
+    //            weakSelf.alarmFooter.isPreviewEnabled = YES;
+    //        }
+    //    }];
 }
 
 - (void)stopPreView
@@ -542,13 +582,13 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
             weakSelf.alarmFooter.isPreviewEnabled = NO;
         }
     }];
-//    [SLPBLESharedManager SAB:SharedDataManager.peripheral stopAlarmRreviewTimeout:0 callback:^(SLPDataTransferStatus status, id data) {
-//        if (status != SLPDataTransferStatus_Succeed) {
-//            [Utils showDeviceOperationFailed:status atViewController:weakSelf];
-//        }else{
-//            weakSelf.alarmFooter.isPreviewEnabled = NO;
-//        }
-//    }];
+    //    [SLPBLESharedManager SAB:SharedDataManager.peripheral stopAlarmRreviewTimeout:0 callback:^(SLPDataTransferStatus status, id data) {
+    //        if (status != SLPDataTransferStatus_Succeed) {
+    //            [Utils showDeviceOperationFailed:status atViewController:weakSelf];
+    //        }else{
+    //            weakSelf.alarmFooter.isPreviewEnabled = NO;
+    //        }
+    //    }];
 }
 
 -(void)deleteBtnTapped
@@ -584,16 +624,16 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
             [weakSelf.navigationController popViewControllerAnimated:YES];
         }
     }];
-//    [SLPBLESharedManager SAB:SharedDataManager.peripheral delAlarm:self.alarmDataNew.alarmID timeout:0 callback:^(SLPDataTransferStatus status, id data) {
-//        if (status != SLPDataTransferStatus_Succeed) {
-//            [Utils showDeviceOperationFailed:status atViewController:weakSelf];
-//        }else{
-//            if ([self.delegate respondsToSelector:@selector(editAlarmInfoAndShouldReload)]) {
-//                [self.delegate editAlarmInfoAndShouldReload];
-//            }
-//            [weakSelf.navigationController popViewControllerAnimated:YES];
-//        }
-//    }];
+    //    [SLPBLESharedManager SAB:SharedDataManager.peripheral delAlarm:self.alarmDataNew.alarmID timeout:0 callback:^(SLPDataTransferStatus status, id data) {
+    //        if (status != SLPDataTransferStatus_Succeed) {
+    //            [Utils showDeviceOperationFailed:status atViewController:weakSelf];
+    //        }else{
+    //            if ([self.delegate respondsToSelector:@selector(editAlarmInfoAndShouldReload)]) {
+    //                [self.delegate editAlarmInfoAndShouldReload];
+    //            }
+    //            [weakSelf.navigationController popViewControllerAnimated:YES];
+    //        }
+    //    }];
 }
 
 -(void)back
