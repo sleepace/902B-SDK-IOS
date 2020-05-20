@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/SLPBLEManager+BleNox.h</key>
 		<data>
-		FCoRczd0qz8HGrmaIDvvyQLyzN8=
+		rnCNTPiwBPpLqXENTbBZ2F0uK3Q=
 		</data>
 		<key>Headers/SLPBleNoxDef.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GSj1fPtT+4+6TuvtK0wERCnOLHE=
+		SL9KULhMyEcR5RWP+p9nzrNru0c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -177,11 +177,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FCoRczd0qz8HGrmaIDvvyQLyzN8=
+			rnCNTPiwBPpLqXENTbBZ2F0uK3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			yyKkOSgPThXNOmmWFygdeJteNi1zs/M1zA+vgrnDR4A=
+			Y1uMulXE88zvn5aQzaoO/zmrFdwzawjNNwz3TE+QCrA=
 			</data>
 		</dict>
 		<key>Headers/SLPBleNoxDef.h</key>

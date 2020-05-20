@@ -81,7 +81,7 @@
     }
     __weak typeof(self) weakSelf = self;
     if (self.mode == FromMode_Alarm) {
-        [SLPBLESharedManager bleNox:SharedDataManager.peripheral turnOnMusic:musicID volume:12 playMode:2 timeout:0 callback:^(SLPDataTransferStatus status, id data) {
+        [SLPBLESharedManager bleNox:SharedDataManager.peripheral turnOnMusic:musicID volume:16 playMode:0 timeout:0 callback:^(SLPDataTransferStatus status, id data) {
             if (status != SLPDataTransferStatus_Succeed) {
                 [Utils showDeviceOperationFailed:status atViewController:weakSelf];
             }
