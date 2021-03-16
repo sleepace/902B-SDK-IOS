@@ -15,11 +15,13 @@
 #import "NightLightViewContronller.h"
 #import "GestureControlViewController.h"
 #import "AlarmViewController.h"
+#import "TimeMissionListViewController.h"
 
 enum {
     Row_Alarm = 0,
     Row_NightLight,
-    Row_ResetDevice,
+    Row_TimeMission,
+    Row_CountDown,
     Row_Bottom,
 };
 
@@ -43,7 +45,7 @@ enum {
 {
     [super viewWillAppear:animated];
     
-    [self showConnected:SharedDataManager.connected];
+//    [self showConnected:SharedDataManager.connected];
 }
 
 - (void)addNotificationObservre {
@@ -85,16 +87,13 @@ enum {
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (section == 0) {
-        return 2;
+        return Row_Bottom;
     }
-    return Row_Bottom;
+    return 2;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     CGFloat height = 60;
-    if (indexPath.row == Row_ResetDevice) {
-        height = 130;
-    }
     
     return height;
 }
@@ -106,6 +105,10 @@ enum {
     if (section == 0) {
         if (indexPath.row == Row_NightLight) {
             title = LocalizedString(@"nightLight");
+        } else if (indexPath.row == Row_TimeMission) {
+            title = LocalizedString(@"定时任务");
+        } else if (indexPath.row == Row_CountDown) {
+            title = LocalizedString(@"倒计时");
         }
     }else{
         if (indexPath.row == 0) {
@@ -189,6 +192,10 @@ enum {
             [self goAlarmPage];
         }else if (indexPath.row == 1){
             [self goNightLightPage];
+        }else if (indexPath.row == 2){
+            [self goTimeMissionList];
+        }else if (indexPath.row == 3){
+            [self goNightLightPage];
         }
     } else if (section == 1){
         [self goGesturePageWithMode:indexPath.row];
@@ -214,6 +221,15 @@ enum {
 {
     NightLightViewContronller *vc = [NightLightViewContronller new];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)goTimeMissionList {
+    TimeMissionListViewController *vc = [TimeMissionListViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)goCountDown {
+    
 }
 
 - (void)goAddAlarm

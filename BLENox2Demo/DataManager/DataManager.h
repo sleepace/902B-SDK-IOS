@@ -38,6 +38,8 @@
 
 @property (nonatomic, strong) NSMutableArray *alarmList;
 
+@property (nonatomic, strong) NSMutableArray *timeMissionList;
+
 + (DataManager *)sharedDataManager;
 
 - (void)toInit;

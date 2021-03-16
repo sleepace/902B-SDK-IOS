@@ -121,9 +121,9 @@
 
 -(void)back
 {
-    if (self.mode == FromMode_Alarm) {
-        [self stopMusic];
-    }
+//    if (self.mode == FromMode_Alarm) {
+//        [self stopMusic];
+//    }
     
     [self.navigationController popViewControllerAnimated:YES];
 }

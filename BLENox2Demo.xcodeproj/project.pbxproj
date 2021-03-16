@@ -130,6 +130,10 @@
 		8F10FF8122EEE73D00376141 /* BLENox2DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10FF8022EEE73D00376141 /* BLENox2DemoTests.m */; };
 		8F10FF8C22EEE73E00376141 /* BLENox2DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F10FF8B22EEE73E00376141 /* BLENox2DemoUITests.m */; };
 		8F52DB3F22EEF442001F1CE5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F52DB3E22EEF442001F1CE5 /* libc++.tbd */; };
+		8F9C508426004C2C004BB46B /* TimeMissionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C508126004C2C004BB46B /* TimeMissionListViewController.m */; };
+		8F9C508526004C2C004BB46B /* TimeMissionListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C508226004C2C004BB46B /* TimeMissionListViewController.xib */; };
+		8F9C508F26005048004BB46B /* TimeMissionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F9C508C26005048004BB46B /* TimeMissionViewController.xib */; };
+		8F9C509026005048004BB46B /* TimeMissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9C508E26005048004BB46B /* TimeMissionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,6 +351,12 @@
 		8F10FF8B22EEE73E00376141 /* BLENox2DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLENox2DemoUITests.m; sourceTree = "<group>"; };
 		8F10FF8D22EEE73E00376141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F52DB3E22EEF442001F1CE5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8F9C508126004C2C004BB46B /* TimeMissionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeMissionListViewController.m; sourceTree = "<group>"; };
+		8F9C508226004C2C004BB46B /* TimeMissionListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeMissionListViewController.xib; sourceTree = "<group>"; };
+		8F9C508326004C2C004BB46B /* TimeMissionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeMissionListViewController.h; sourceTree = "<group>"; };
+		8F9C508C26005048004BB46B /* TimeMissionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeMissionViewController.xib; sourceTree = "<group>"; };
+		8F9C508D26005048004BB46B /* TimeMissionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeMissionViewController.h; sourceTree = "<group>"; };
+		8F9C508E26005048004BB46B /* TimeMissionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeMissionViewController.m; sourceTree = "<group>"; };
 		8FB5085022FA70AC00DC6061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8FB5098622FD063800DC6061 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -558,6 +568,8 @@
 		8F1000FB22EEE85A00376141 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				8F9C507F26004C2C004BB46B /* CountDown */,
+				8F9C508026004C2C004BB46B /* TimeMission */,
 				8F023B3922F035EC001B6D23 /* Gesture */,
 				8F023B3A22F035EC001B6D23 /* NightLight */,
 				8F10011022EEE85A00376141 /* Alarm */,
@@ -829,6 +841,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8F9C507F26004C2C004BB46B /* CountDown */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CountDown;
+			sourceTree = "<group>";
+		};
+		8F9C508026004C2C004BB46B /* TimeMission */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C508D26005048004BB46B /* TimeMissionViewController.h */,
+				8F9C508E26005048004BB46B /* TimeMissionViewController.m */,
+				8F9C508C26005048004BB46B /* TimeMissionViewController.xib */,
+				8F9C508326004C2C004BB46B /* TimeMissionListViewController.h */,
+				8F9C508126004C2C004BB46B /* TimeMissionListViewController.m */,
+				8F9C508226004C2C004BB46B /* TimeMissionListViewController.xib */,
+			);
+			path = TimeMission;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -943,7 +975,9 @@
 				8F10017F22EEE85A00376141 /* ControlViewController.xib in Resources */,
 				8F10FF7122EEE73D00376141 /* Assets.xcassets in Resources */,
 				8F023B6422F17403001B6D23 /* device_pic_nox2_usetutorial_page2@2x.jpg in Resources */,
+				8F9C508F26005048004BB46B /* TimeMissionViewController.xib in Resources */,
 				264FF7882435791B005E23B3 /* SN902B_20200401.1.28_beta.MVA in Resources */,
+				8F9C508526004C2C004BB46B /* TimeMissionListViewController.xib in Resources */,
 				8F10018C22EEE85A00376141 /* common_list_icon_leftarrow@3x.png in Resources */,
 				8F1001D522EEE85B00376141 /* HourMinutePicker.xib in Resources */,
 				8F1001B522EEE85A00376141 /* SLPAlarmFooter.xib in Resources */,
@@ -1051,6 +1085,7 @@
 				8F1001C922EEE85B00376141 /* SLPLoadingBlockView.m in Sources */,
 				8F10019622EEE85A00376141 /* Utils+UI.m in Sources */,
 				8F1001BF22EEE85B00376141 /* DeviceViewController.m in Sources */,
+				8F9C509026005048004BB46B /* TimeMissionViewController.m in Sources */,
 				8F10019822EEE85A00376141 /* SettingsViewController.m in Sources */,
 				8F10018822EEE85A00376141 /* Theme.m in Sources */,
 				8F1001BB22EEE85A00376141 /* ResetCell.m in Sources */,
@@ -1062,6 +1097,7 @@
 				8F1001AC22EEE85A00376141 /* SLPViewInfo.m in Sources */,
 				8F1001CE22EEE85B00376141 /* VerticalDashView.m in Sources */,
 				8F1001D622EEE85B00376141 /* SLPMinutePicker.m in Sources */,
+				8F9C508426004C2C004BB46B /* TimeMissionListViewController.m in Sources */,
 				8F10017E22EEE85A00376141 /* CustomColorButton.m in Sources */,
 				8F023B3E22F03662001B6D23 /* NightLightViewContronller.m in Sources */,
 				8F1001BA22EEE85A00376141 /* AlarmViewController.m in Sources */,
