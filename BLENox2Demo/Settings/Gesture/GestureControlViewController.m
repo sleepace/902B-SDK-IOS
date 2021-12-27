@@ -109,7 +109,7 @@ static NSString *const kHoverSection_Disable = @"kHoverSection_Disable";
     switch (self.mode) {
         case GestureModeWave:
         {
-            NSMutableArray *deviceInfoRowEnumList = deviceInfoRowEnumList = [NSMutableArray arrayWithObjects:kWaveSection_Title, kWaveSection_Color, kWaveSection_Music, kWaveSection_Disable, nil];;
+            NSMutableArray *deviceInfoRowEnumList = [NSMutableArray arrayWithObjects:kWaveSection_Title, kWaveSection_Color, kWaveSection_Music, kWaveSection_Disable, nil];;
             
             [deviceInfoData setRowEnumList:deviceInfoRowEnumList];
         }
@@ -180,7 +180,7 @@ static NSString *const kHoverSection_Disable = @"kHoverSection_Disable";
         titleCell.titleLabel.text = LocalizedString(@"WaveTitleStr");
         return titleCell;
     } else if ([rowEnum isEqualToString:kHoverSection_Title]) {
-        SLPTitleTableViewCell *titleCell = (SLPTitleTableViewCell *)[SLPUtils tableView:tableView cellNibName:@"SLPTitleTableViewCell"];
+        SLPTitleTableViewCell *titleCell = (SLPTitleTableViewCell *)[SLPUtils tableView:tableView   cellNibName:@"SLPTitleTableViewCell"];
         titleCell.titleLabel.text = LocalizedString(@"HoverTitleStr");
         return titleCell;
     }

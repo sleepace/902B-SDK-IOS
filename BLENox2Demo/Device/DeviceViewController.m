@@ -246,7 +246,7 @@
 }
 
 - (IBAction)upgradeClicked:(id)sender {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"SN902B_20200401.1.28_beta" ofType:@"MVA"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"SN902B_V1.30_20210325" ofType:@"MVA"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     __weak typeof(self) weakSelf = self;
     SLPLoadingBlockView *loadingView = [self showLoadingView];

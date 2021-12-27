@@ -89,7 +89,7 @@ enum {
     if (section == 0) {
         return Row_Bottom;
     }
-    return 2;
+    return 3;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
